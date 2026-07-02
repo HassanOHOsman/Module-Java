@@ -7,13 +7,15 @@ public class PrimeNumbers {
                     isPrimeNumber = false;
                     break;
                 }
-                }
-
+            }
+            if (isPrimeNumber) {
+                System.out.println(i);
             }
         }
+    }
 
         static void main(String[] args) {
-
+            getPrimeNumbers();
         }
 
     }
