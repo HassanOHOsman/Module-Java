@@ -7,11 +7,17 @@ public class ReverseNumbers {
      */
 
     private static int reverseNumber(int number) {
-        Integer.toString(number);
+        String stringifiedNumber = Integer.toString(number);
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = stringifiedNumber.length() - 1; i >= 0 ; i --) {
+            stringBuilder.append(stringifiedNumber.charAt(i));
 
+        }
+
+        return Integer.valueOf(stringBuilder.toString());
     }
 
     public static void main(String[] args) {
-        System.out.println(reverseNumber(123));
+        System.out.println(reverseNumber(456));
     }
 }
