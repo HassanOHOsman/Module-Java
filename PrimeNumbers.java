@@ -1,5 +1,5 @@
 public class PrimeNumbers {
-    //
+    // the method below checks if a number is prime and return true or false accordingly.
     private static boolean isPrime(int number) {
         for (int j = 2; j < number; j++) {
             if (number  % j == 0) {
