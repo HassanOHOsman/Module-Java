@@ -13,9 +13,7 @@ public class PrimeNumbers {
 
     private static void getPrimeNumbers() {
         for (int i = 1; i <= 1000; i++) {
-
-
-            if (isPrimeNumber) {
+            if (isPrime(i)) {
                 System.out.println(i);
             }
         }
