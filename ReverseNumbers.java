@@ -6,6 +6,7 @@ public class ReverseNumbers {
      * @return is the reverse of that integer
      */
     private static int reverseNumber(int number) {
+        Math.abs(number);
         String stringifiedNumber = Integer.toString(number);
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = stringifiedNumber.length() - 1; i >= 0 ; i --) {
@@ -17,6 +18,6 @@ public class ReverseNumbers {
     }
 
     public static void main(String[] args) {
-        System.out.println(reverseNumber(-453));
+        System.out.println(reverseNumber(453));
     }
 }
