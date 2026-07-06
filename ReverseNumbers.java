@@ -5,7 +5,6 @@ public class ReverseNumbers {
      * @param number is an integer
      * @return is the reverse of that integer
      */
-
     private static int reverseNumber(int number) {
         String stringifiedNumber = Integer.toString(number);
         StringBuilder stringBuilder = new StringBuilder();
