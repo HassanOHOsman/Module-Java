@@ -13,7 +13,11 @@ public class TaskManager {
     }
 
     public void completeTask(int id) {
-
+        for (Task task : tasks) {
+            if (task.getId() == id) {
+                task.complete();
+            }
+        }
     }
 
 }
