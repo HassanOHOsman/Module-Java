@@ -2,16 +2,16 @@ package tasks;
 
 public class PriorityTask extends Task{
     private String priority;
-    private boolean isApprovalRequired;
+    private boolean approvalRequired;
 
     @Override
     public String getStatus() {
         if (!isCompleted()){
             return "Summary:\nTask ID: " + getId() + "\nDescription: " + getDescription() + "\nPriority: " + priority +
-                    "\nRequire Approval? : " + isApprovalRequired + " hours" + "\nCompletion Status: has not been completed yet";
+                    "\nRequire Approval? : " + approvalRequired + "\nCompletion Status: has not been completed yet";
         }
         return "Summary:\nTask ID: " + getId() + "\nDescription: " + getDescription() + "\nPriority: " + priority +
-                "\nRequire Approval? : " + isApprovalRequired + " hours" + "\nCompletion Status: Completed";
+                "\nRequire Approval? : " + approvalRequired + "\nCompletion Status: Completed";
 
     }
 
