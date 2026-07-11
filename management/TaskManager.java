@@ -8,7 +8,8 @@ public class TaskManager {
     private int taskCount;
 
     public void addTask(Task task) {
-        tasks.add(task);
+        tasks[taskCount] = task;
+        taskCount++;
     }
 
 }
