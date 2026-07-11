@@ -1,8 +1,14 @@
 package management;
 
+import tasks.Task;
+
 public class TaskManager {
 
     private Task[] tasks;
-    private int taskCount
+    private int taskCount;
+
+    public void addTask(Task task) {
+        tasks.add(task);
+    }
 
 }
