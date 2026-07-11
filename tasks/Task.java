@@ -13,6 +13,18 @@ public class Task {
 
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public boolean isCompleted() {
+        return completed;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
     public String getStatus() {
         if (!completed){
             return "Summary:\nTask ID: " + id + "\nDescription: " + description + "\nCompletion Status: has not been completed yet";
