@@ -12,4 +12,8 @@ public class TaskManager {
         taskCount++;
     }
 
+    public void completeTask(int id) {
+
+    }
+
 }
