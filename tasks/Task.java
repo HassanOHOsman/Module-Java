@@ -13,8 +13,12 @@ public class Task {
 
     }
 
-    public String getStatus(int id, ) {
-        return "Task ID: " + id
+    public String getStatus() {
+        if (!completed){
+            return "Summary:\nTask ID: " + id + "\nDescription: " + description + "\nCompletion Status: has not been completed yet";
+        }
+        return "Summary:\nTask ID: " + id + "\nDescription: " + description + "\nCompletion Status: Completed";
+
     }
 
 
