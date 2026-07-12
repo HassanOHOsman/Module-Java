@@ -38,6 +38,11 @@ public class Task {
 
     }
 
+    @Override
+    public String toString() {
+        return getStatus();
+    }
+
 
 
 
