@@ -16,7 +16,6 @@ public class Task {
         if (!completed) {
             completed = true;
         }
-
     }
 
     public int getId() {
@@ -33,9 +32,9 @@ public class Task {
 
     public String getStatus() {
         if (!completed){
-            return "Summary:\nTask ID: " + id + "\nDescription: " + description + "\nCompletion Status: has not been completed yet";
+            return "** Summary **\n* Task ID: " + id + "\n* Description:" + description + "\n* Completion Status: Incomplete";
         }
-        return "Summary:\nTask ID: " + id + "\nDescription: " + description + "\nCompletion Status: Completed";
+        return "** Summary **\n* Task ID: " + id + "\n* Description:" + description + "\n* Completion Status: Completed";
 
     }
 
