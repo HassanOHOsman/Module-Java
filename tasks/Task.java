@@ -32,9 +32,9 @@ public class Task {
 
     public String getStatus() {
         if (!completed){
-            return "** Summary **\n* Task ID: " + id + "\n* Description:" + description + "\n* Completion Status: Incomplete";
+            return "** Summary **\n* Task ID: " + id + "\n* Description: " + description + "\n* Completion Status: Incomplete";
         }
-        return "** Summary **\n* Task ID: " + id + "\n* Description:" + description + "\n* Completion Status: Completed";
+        return "** Summary **\n* Task ID: " + id + "\n* Description: " + description + "\n* Completion Status: Completed";
 
     }
 
