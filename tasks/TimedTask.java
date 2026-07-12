@@ -6,6 +6,12 @@ public class TimedTask extends Task {
     private LocalDate deadline;
     private double durationInHours;
 
+    public TimedTask(int id, String description, boolean completed, LocalDate deadline, double durationInHours) {
+        super(id, description, completed);
+        this.deadline = deadline;
+        this.durationInHours = durationInHours;
+    }
+
     @Override
     public String getStatus() {
         if (!isCompleted()){
