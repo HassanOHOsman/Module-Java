@@ -20,4 +20,21 @@ public class TaskManager {
         }
     }
 
+    public Task[] getTasksByStatus(boolean completed) {
+
+        Task[] tasksByCompletionStatus = new Task[10];
+        int index = 0;
+
+        for (Task task : tasks) {
+            if (task.isCompleted() == completed) {
+                tasksByCompletionStatus[index] = task;
+                index++;
+            }
+
+        }
+        return tasksByCompletionStatus;
+    }
+
+
+
 }
