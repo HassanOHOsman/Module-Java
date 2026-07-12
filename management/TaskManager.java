@@ -30,22 +30,29 @@ public class TaskManager {
 
     public Task[] getTasksByStatus(boolean completed) {
 
-        Task[] tasksByCompletionStatus = new Task[10];
+        int count = 0;
+
+        for (int i = 0; i < taskCount; i++) {
+            if(tasks[i].isCompleted() == completed) {
+                count++;
+            }
+        }
+        Task[] tasksByCompletionStatus = new Task[count];
+
         int index = 0;
 
-        for (Task task : tasks) {
-            if (task == null) {
-                continue;
-            }
-            if (task.isCompleted() == completed) {
-                tasksByCompletionStatus[index] = task;
+        for (int i = 0; i < taskCount; i++) {
+            if (tasks[i].isCompleted() == completed) {
+                tasksByCompletionStatus[index] = tasks[i];
                 index++;
             }
-
         }
         return tasksByCompletionStatus;
+
+    }
+
     }
 
 
 
-}
+

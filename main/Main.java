@@ -5,6 +5,8 @@ import management.TaskManager;
 
 import java.time.LocalDate;
 
+import java.util.Arrays;
+
 public class Main {
 
     static void main(String[] args) {
@@ -25,7 +27,7 @@ public class Main {
         taskManager.completeTask(404);
         taskManager.completeTask(159);
 
-        System.out.println(taskManager.getTasksByStatus(true));
+        System.out.println(Arrays.toString(taskManager.getTasksByStatus(true)));
 
     }
 
