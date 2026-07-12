@@ -19,6 +19,9 @@ public class TaskManager {
 
     public void completeTask(int id) {
         for (Task task : tasks) {
+            if (task == null) {
+                continue;
+            }
             if (task.getId() == id) {
                 task.complete();
             }
@@ -31,6 +34,9 @@ public class TaskManager {
         int index = 0;
 
         for (Task task : tasks) {
+            if (task == null) {
+                continue;
+            }
             if (task.isCompleted() == completed) {
                 tasksByCompletionStatus[index] = task;
                 index++;
