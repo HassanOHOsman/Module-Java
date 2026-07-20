@@ -15,14 +15,16 @@ class CalculatorTest {
 
     @Test
     void testAdd() {
-        assertEquals(10, calculator.add(5, 5), "Addition of 5 and 5 should equal 10");
+        assertEquals(10, calculator.add(5, 5), "Addition of 2 values should equal the expected value");
     }
 
     @Test
     void testDivide() {
-        assertEquals(20, calculator.divide(100, 5), "dividing 100 by 5 should equal 20");
+        assertEquals(20, calculator.divide(100, 5), "dividing value1 by value2 should equal the expected value");
     }
 
     @Test
-    void testDivideByZeroThrows() {}
+    void testDivideByZeroThrows() {
+        assertThrows(IllegalArgumentException.class, ()-> calculator.divide(50, 0), "dividing by 0 should throw an exception");
+    }
 }
