@@ -34,4 +34,10 @@ class CalculatorTest {
     void testSquare() {
         assertEquals(64, calculator.square(7), "when a value is squared it should equal to the expected result");
     }
+
+    @Test
+    @DisplayName()
+    void testSquareRoot() {
+        assertEquals(5, calculator.squareRoot(25), "The square root of a value should equal to the expected result");
+    }
 }
