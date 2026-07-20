@@ -25,6 +25,9 @@ public class Calculator {
     }
 
     public double squareRoot(int a) {
+        if (a < 0) {
+            throw new IllegalArgumentException("Square root of negative values is not allowed");
+        }
         return Math.sqrt(a);
     }
 }
