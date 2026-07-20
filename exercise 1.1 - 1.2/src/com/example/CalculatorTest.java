@@ -1,6 +1,7 @@
 package com.example;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -26,5 +27,11 @@ class CalculatorTest {
     @Test
     void testDivideByZeroThrows() {
         assertThrows(IllegalArgumentException.class, ()-> calculator.divide(50, 0), "dividing by 0 should throw an exception");
+    }
+
+    @Test
+    @DisplayName("Method returns the square of an integer")
+    void testSquare() {
+        assertEquals(64, calculator.square(7), "when a value is squared it should equal to the expected result");
     }
 }
