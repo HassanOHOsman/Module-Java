@@ -14,7 +14,9 @@ class CalculatorTest {
     }
 
     @Test
-    void testAdd() {}
+    void testAdd() {
+        assertEquals(10, calculator.add(5, 5), "Addition of 2 values should return the expected value");
+    }
 
     @Test
     void testDivide() {}
