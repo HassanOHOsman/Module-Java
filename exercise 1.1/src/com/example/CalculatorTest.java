@@ -15,11 +15,13 @@ class CalculatorTest {
 
     @Test
     void testAdd() {
-        assertEquals(10, calculator.add(5, 5), "Addition of 2 values should return the expected value");
+        assertEquals(10, calculator.add(5, 5), "Addition of 5 and 5 should equal 10");
     }
 
     @Test
-    void testDivide() {}
+    void testDivide() {
+        assertEquals(20, calculator.divide(100, 5), "dividing 100 by 5 should equal 20");
+    }
 
     @Test
     void testDivideByZeroThrows() {}
