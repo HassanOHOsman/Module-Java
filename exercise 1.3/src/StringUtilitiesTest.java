@@ -25,9 +25,9 @@ public class StringUtilitiesTest {
 
     @Test
     void splitCommaSeparatedLine(){
-        assertEquals(List.of("Jan", "Feb", "Mar", "Apr"), stringUtilities.splitCommaSeparatedLine("Jan, Feb, Mar, Apr"), "Comma-separated string should return a list of those strings on its own");
-        assertEquals(List.of("Spring - Summer - Autumn - Winter"), stringUtilities.splitCommaSeparatedLine("Spring - Summer - Autumn - Winter"), "Comma-separated string should return a list of those strings on its own"); //edge case
-        assertEquals(List.of("  ", "  ", "  ", "  "), stringUtilities.splitCommaSeparatedLine("  ,  ,  ,  "), "Comma-separated string should return a list of those strings on its own");// edge case
+        assertEquals(List.of("Jan", "Feb", "Mar", "Apr"), stringUtilities.splitCommaSeparatedLine("Jan, Feb, Mar, Apr"), "Comma-separated string should return a list of those strings");
+        assertEquals(List.of("Spring - Summer - Autumn - Winter"), stringUtilities.splitCommaSeparatedLine("Spring - Summer - Autumn - Winter"), "Comma-separated string should return a list of those strings"); //edge case
+        assertEquals(List.of("  ", "  ", "  ", "  "), stringUtilities.splitCommaSeparatedLine("  ,  ,  ,  "), "Comma-separated string should return a list of those strings");// edge case
     }
 
 

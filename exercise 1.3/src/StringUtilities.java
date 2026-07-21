@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class StringUtilities {
     public boolean isPalindrome(String s) {
 
@@ -6,6 +9,15 @@ public class StringUtilities {
         return s.equals(reversedString);
     }
 
-    @Deprecated
-    public List<String> splitCommaSeparatedLine(String s) {}
+
+    public List<String> splitCommaSeparatedLine(String s) {
+
+        String[] stringsArray = s.split("\\s*,\\s*");
+
+
+        List<String> stringsList = Arrays.asList(stringsArray);
+
+        return stringsList;
+
+    }
 }
