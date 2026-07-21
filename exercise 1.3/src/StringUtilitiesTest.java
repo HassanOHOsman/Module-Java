@@ -1,9 +1,13 @@
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.BeforeEach;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.params.provider.CsvSource;
+import org.junit.jupiter.params.provider.MethodSource;
 
 
 
@@ -17,11 +21,22 @@ public class StringUtilitiesTest {
     }
 
     @Test
-    void testIsPalindrome(){
+    void testIsPalindrome1(){
         assertTrue(stringUtilities.isPalindrome("mom"), "this word should be palindrome");
         assertTrue(stringUtilities.isPalindrome("B"), "this word should be palindrome"); //edge case
         assertTrue(stringUtilities.isPalindrome(""), "this word should be palindrome");  // edge case
     }
+
+    @ParameterizedTest
+    @CsvSource({"RADAR", "dead", "a"})
+    void testIsPalindrome2(String s) {
+        assertTrue(stringUtilities.isPalindrome(s));
+    }
+
+
+
+
+
 
     @Test
     void splitCommaSeparatedLine(){
