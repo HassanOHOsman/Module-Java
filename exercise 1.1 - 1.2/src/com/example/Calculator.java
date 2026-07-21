@@ -31,3 +31,11 @@ public class Calculator {
         return Math.sqrt(a);
     }
 }
+
+/*Q1: what should happen if squareRoot is requested for a negative number?
+A1: the method should throw an exception.
+
+Q2: how would we check the answer for squareRoot(3) ? (think accuracy required)
+A2: We could add delta, accuracy tolerance to metigate the issue of sqrt for irrational numbers such as 3.
+
+ */
