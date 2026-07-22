@@ -13,17 +13,26 @@ public class Calculator {
     /**
      * Calculates the sum of two integers.
      *
-     * @param a the first integer
-     * @param b the second integer
+     * @param a the first integer to add to
+     * @param b the second integer to add
      * @return the sum of {@code a} and {@code b}
      */
     public int add(int a, int b) {
         return a + b;
     }
 
+
+    /**
+     * Subtracts one integer from another.
+     *
+     * @param a the integer to subtract from
+     * @param b the integer to subtract
+     * @return the subtraction of {@code b} from {@code a}
+     */
     public int subtract(int a, int b) {
         return a - b;
     }
+
 
     public int multiply(int a, int b) {
         return a * b;
