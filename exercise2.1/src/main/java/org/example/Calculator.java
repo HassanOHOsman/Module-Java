@@ -62,11 +62,17 @@ public class Calculator {
         return a / b;
     }
 
-
-
+    /**
+     * Calculates the square of an integer.
+     *
+     * @param a the integer to square
+     * @return the squared value of {@code a}
+     */
     public int square(int a) {
         return a * a;
     }
+
+
 
     public double squareRoot(int a) {
         if (a < 0) {
