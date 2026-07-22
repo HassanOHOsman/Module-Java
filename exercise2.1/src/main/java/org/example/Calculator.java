@@ -10,6 +10,13 @@ package org.example;
  * @see Math
  */
 public class Calculator {
+    /**
+     * Calculates the sum of two integers.
+     *
+     * @param a the first integer
+     * @param b the second integer
+     * @return the sum of {@code a} and {@code b}
+     */
     public int add(int a, int b) {
         return a + b;
     }
