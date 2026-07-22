@@ -73,7 +73,13 @@ public class Calculator {
     }
 
 
-
+    /**
+     * Calculates the square root of a non-negative integer.
+     *
+     * @param a the non-negative integer to square root
+     * @return the square root of {@code a}
+     * @throws IllegalArgumentException if {@code a} is below zero
+     */
     public double squareRoot(int a) {
         if (a < 0) {
             throw new IllegalArgumentException("Square root of negative values is not allowed");
