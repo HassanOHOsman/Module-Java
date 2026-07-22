@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add the Calculator class">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add javadoc comments for the addition method add()">
       <change beforePath="$PROJECT_DIR$/exercise2.1/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1/src/main/java/org/example/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise2.1/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,23 +160,7 @@
       <workItem from="1784729561947" duration="103000" />
       <workItem from="1784729977924" duration="42000" />
       <workItem from="1784730480821" duration="486000" />
-      <workItem from="1784731854454" duration="520000" />
-    </task>
-    <task id="LOCAL-00006" summary="Create setters for Task class properties so that they could be access from the specialised tasks sub-classes.">
-      <option name="closed" value="true" />
-      <created>1783781334326</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1783781334326</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Override getStatus() method in TimedTask class">
-      <option name="closed" value="true" />
-      <created>1783781694181</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1783781694181</updated>
+      <workItem from="1784731854454" duration="1151000" />
     </task>
     <task id="LOCAL-00008" summary="Create a 2nd specialised class PriorityTask with its own unique fields.">
       <option name="closed" value="true" />
@@ -557,15 +538,29 @@
       <option name="project" value="LOCAL" />
       <updated>1784654552972</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Write javadoc comments for the soruce class (Calculator).">
+      <option name="closed" value="true" />
+      <created>1784732395696</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732395696</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Add javadoc comments for the addition method add()">
+      <option name="closed" value="true" />
+      <created>1784732637929</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1784732637929</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create calculator of Calculator type and before each test run create an instance of that class." />
-    <MESSAGE value="filled out the test method testAdd with complete implementation with a test case" />
     <MESSAGE value="filled out the test method testDivide with complete implementation with a test case" />
     <MESSAGE value="*filled out the test method testDivideByZeroThrows with complete implementation with a test case&#10;&#10;* updated the failure message for all test methods to be more generic and not tied to the test cases" />
     <MESSAGE value="Get rid of \ from org.junit.jupiter.api.Assertions at the top as it was causing a compilation issue" />
@@ -589,7 +584,9 @@
     <MESSAGE value="Add the Calculator and StringUtilities classes as well as their tests classes" />
     <MESSAGE value="Answer the question related to this segment of the exercise." />
     <MESSAGE value="Answer the automated testing reflection questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Answer the automated testing reflection questions" />
+    <MESSAGE value="Write javadoc comments for the soruce class (Calculator)." />
+    <MESSAGE value="Add javadoc comments for the addition method add()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add javadoc comments for the addition method add()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

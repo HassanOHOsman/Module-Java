@@ -33,7 +33,13 @@ public class Calculator {
         return a - b;
     }
 
-
+    /**
+     * Calculates the multiplication of two integers.
+     *
+     * @param a the first integer
+     * @param b the second integer
+     * @return the multiplication of {@code a} and {@code b}
+     */
     public int multiply(int a, int b) {
         return a * b;
     }
