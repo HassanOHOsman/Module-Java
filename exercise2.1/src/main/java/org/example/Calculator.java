@@ -10,6 +10,7 @@ package org.example;
  * @see Math
  */
 public class Calculator {
+
     /**
      * Calculates the sum of two integers.
      *
@@ -33,6 +34,7 @@ public class Calculator {
         return a - b;
     }
 
+
     /**
      * Calculates the multiplication of two integers.
      *
@@ -44,12 +46,23 @@ public class Calculator {
         return a * b;
     }
 
+
+    /**
+     * Divides two integers.
+     *
+     * @param a the dividend
+     * @param b the divisor
+     * @return the result of dividing {@code a} by {@code b}
+     * @throws IllegalArgumentException if {@code b} is zero
+     */
     public int divide(int a, int b) {
         if (b == 0) {
             throw new IllegalArgumentException("Division by zero");
         }
         return a / b;
     }
+
+
 
     public int square(int a) {
         return a * a;
