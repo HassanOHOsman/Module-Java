@@ -28,6 +28,12 @@ public class StringUtilities {
     }
 
 
+    /**
+     * Splits a comma-separated string into a list of strings.
+     *
+     * @param s the comma-separated string to split
+     * @return list of strings based on {@code s}
+     */
     public List<String> splitCommaSeparatedLine(String s) {
 
         String[] stringsArray = s.split("\\s*,\\s*");
