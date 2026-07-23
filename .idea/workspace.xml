@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add javadoc comments for the addition method add()">
-      <change beforePath="$PROJECT_DIR$/exercise2.1/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/main/java/org/example/StringUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/StringUtilitiesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise2.1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1-2.2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise2.1/src/main/java/org/example/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/main/java/org/example/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise2.1/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,34 +42,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.CalculatorTest.executor": "Run",
-    "JUnit.StringUtilitiesTest.splitCommaSeparatedLine.executor": "Run",
-    "JUnit.StringUtilitiesTest.testIsPalindrome.executor": "Run",
-    "JUnit.StringUtilitiesTest.testIsPalindrome2.executor": "Run",
-    "JUnit.StringUtilitiesTest.testIsPalindrome3.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "prep/javadoc",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/h.o./IdeaProjects/Module-Java 15.20.35",
-    "onboarding.tips.debug.path": "/Users/h.o./IdeaProjects/Module-Java 15.20.35/exercise2.1/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.splitCommaSeparatedLine.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.testIsPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.testIsPalindrome2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.testIsPalindrome3.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;prep/javadoc&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/h.o./IdeaProjects/Module-Java 15.20.35&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/h.o./IdeaProjects/Module-Java 15.20.35/exercise2.1/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -592,7 +596,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/exercise2.1/src/main/java/org/example/Main.java</url>
+          <url>file://$PROJECT_DIR$/exercise2.1-2.2/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
