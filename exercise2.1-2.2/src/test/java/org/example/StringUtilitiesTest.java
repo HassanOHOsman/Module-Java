@@ -44,6 +44,9 @@ public class StringUtilitiesTest {
         stringUtilities = new StringUtilities();
     }
 
+    /**
+     * Individually tests whether the {@code isPalindrome()} method can determine whether a string is a palindrome.
+     */
     @Test
     void testIsPalindrome1(){
         assertTrue(stringUtilities.isPalindrome("mom"), "this word should be palindrome");
@@ -51,6 +54,10 @@ public class StringUtilitiesTest {
         assertTrue(stringUtilities.isPalindrome(""), "this word should be palindrome");  // edge case
     }
 
+    /**
+     * Tests whether the {@code isPalindrome()} method can determine whether multiple strings are
+     * palindromes using CSV input.
+     */
     @ParameterizedTest
     @CsvSource({"RADAR", "dead", "a"})
     @DisplayName("Test if various input strings were palindrome all at once using @ParameterizedTest and @CsvSource")
@@ -58,14 +65,18 @@ public class StringUtilitiesTest {
         assertTrue(stringUtilities.isPalindrome(s));
     }
 
+    /**
+     * Tests whether the {@code isPalindrome()} method can determine whether multiple strings are
+     * palindromes using a method source.
+     */
     @ParameterizedTest
-    @MethodSource("isPalindromeDate")
+    @MethodSource("isPalindromeData")
     @DisplayName("")
     void testIsPalindrome3(String s) {
         assertTrue(stringUtilities.isPalindrome(s));
     }
 
-    static Stream<Arguments> isPalindromeDate() {
+    static Stream<Arguments> isPalindromeData() {
         return Stream.of(
                 Arguments.of("lol"),
                 Arguments.of("mwcwm"),
@@ -74,6 +85,9 @@ public class StringUtilitiesTest {
     }
 
 
+    /**
+     * Tests whether the {@code splitCommaSeparatedLine()} method splits a comma-separated string into a list of strings.
+     */
     @Test
     void splitCommaSeparatedLine(){
         assertEquals(List.of("Jan", "Feb", "Mar", "Apr"), stringUtilities.splitCommaSeparatedLine("Jan, Feb, Mar, Apr"), "Comma-separated string should return a list of those strings");
