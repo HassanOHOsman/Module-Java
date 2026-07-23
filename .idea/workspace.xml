@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add a javadoc comment associated with the CalculatorTest class">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add a javadoc comments associated with all CalculatorTest class test methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise2.1-2.2/src/main/java/org/example/StringUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/main/java/org/example/StringUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/StringUtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/StringUtilitiesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -164,14 +162,6 @@
       <workItem from="1784729977924" duration="42000" />
       <workItem from="1784730480821" duration="486000" />
       <workItem from="1784731854454" duration="1151000" />
-    </task>
-    <task id="LOCAL-00013" summary="Populate the TaskManager class with its own fields">
-      <option name="closed" value="true" />
-      <created>1783783161636</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1783783161636</updated>
     </task>
     <task id="LOCAL-00014" summary="Create the intial form of the addTask() method &#10;&#10;import tasks.Task so that it can be used within the management package">
       <option name="closed" value="true" />
@@ -557,14 +547,21 @@
       <option name="project" value="LOCAL" />
       <updated>1784807712812</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Add a javadoc comments associated with all CalculatorTest class test methods">
+      <option name="closed" value="true" />
+      <created>1784809054695</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1784809054695</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement a test method to test the behaviour of testSquare() method." />
     <MESSAGE value="Implement a test method to test the behaviour of testSquareRoot() method." />
     <MESSAGE value="update the squareRoot method to handle when values are negative" />
     <MESSAGE value="Add a test method to test square root for negative values which should throw an exception" />
@@ -589,7 +586,8 @@
     <MESSAGE value="Add a javadoc comment associated with the isPalindrome() method" />
     <MESSAGE value="Add a javadoc comment associated with the splitCommaSeparatedLine() methid" />
     <MESSAGE value="Add a javadoc comment associated with the CalculatorTest class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a javadoc comment associated with the CalculatorTest class" />
+    <MESSAGE value="Add a javadoc comments associated with all CalculatorTest class test methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a javadoc comments associated with all CalculatorTest class test methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
