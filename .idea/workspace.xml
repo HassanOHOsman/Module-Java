@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add a javadoc comment associated with the splitCommaSeparatedLine() methid">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add a javadoc comment associated with the CalculatorTest class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise2.1-2.2/src/main/java/org/example/StringUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/main/java/org/example/StringUtilities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/StringUtilitiesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise2.1-2.2/src/test/java/org/example/StringUtilitiesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,14 +164,6 @@
       <workItem from="1784729977924" duration="42000" />
       <workItem from="1784730480821" duration="486000" />
       <workItem from="1784731854454" duration="1151000" />
-    </task>
-    <task id="LOCAL-00012" summary="import import java.time.LocalDate; so that LocalDate class could be sued">
-      <option name="closed" value="true" />
-      <created>1783782961633</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1783782961633</updated>
     </task>
     <task id="LOCAL-00013" summary="Populate the TaskManager class with its own fields">
       <option name="closed" value="true" />
@@ -555,14 +549,21 @@
       <option name="project" value="LOCAL" />
       <updated>1784806821447</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Add a javadoc comment associated with the CalculatorTest class">
+      <option name="closed" value="true" />
+      <created>1784807712812</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1784807712812</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement a method that returns the square root of decimal-point number (double)." />
     <MESSAGE value="Implement a test method to test the behaviour of testSquare() method." />
     <MESSAGE value="Implement a test method to test the behaviour of testSquareRoot() method." />
     <MESSAGE value="update the squareRoot method to handle when values are negative" />
@@ -587,7 +588,8 @@
     <MESSAGE value="Add a javadoc comment associated with the StringUtilities class" />
     <MESSAGE value="Add a javadoc comment associated with the isPalindrome() method" />
     <MESSAGE value="Add a javadoc comment associated with the splitCommaSeparatedLine() methid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a javadoc comment associated with the splitCommaSeparatedLine() methid" />
+    <MESSAGE value="Add a javadoc comment associated with the CalculatorTest class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a javadoc comment associated with the CalculatorTest class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
