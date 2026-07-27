@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Answer the automated testing reflection questions">
-      <change afterPath="$PROJECT_DIR$/Exercise1.1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/StatementSender.java" afterDir="false" />
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1. Create an interface - StatementSender - with a default method - sendStatement&#10;&#10;2. Answer 2 question">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise 1.3/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise1.4/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/StatementSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/StatementSender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,14 +163,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00006" summary="Create setters for Task class properties so that they could be access from the specialised tasks sub-classes.">
-      <option name="closed" value="true" />
-      <created>1783781334326</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1783781334326</updated>
     </task>
     <task id="LOCAL-00007" summary="Override getStatus() method in TimedTask class">
       <option name="closed" value="true" />
@@ -559,14 +548,21 @@
       <option name="project" value="LOCAL" />
       <updated>1784654552972</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="1. Create an interface - StatementSender - with a default method - sendStatement&#10;&#10;2. Answer 2 question">
+      <option name="closed" value="true" />
+      <created>1785152483975</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1785152483975</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create calculator of Calculator type and before each test run create an instance of that class." />
     <MESSAGE value="filled out the test method testAdd with complete implementation with a test case" />
     <MESSAGE value="filled out the test method testDivide with complete implementation with a test case" />
     <MESSAGE value="*filled out the test method testDivideByZeroThrows with complete implementation with a test case&#10;&#10;* updated the failure message for all test methods to be more generic and not tied to the test cases" />
@@ -591,7 +587,8 @@
     <MESSAGE value="Add the Calculator and StringUtilities classes as well as their tests classes" />
     <MESSAGE value="Answer the question related to this segment of the exercise." />
     <MESSAGE value="Answer the automated testing reflection questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Answer the automated testing reflection questions" />
+    <MESSAGE value="1. Create an interface - StatementSender - with a default method - sendStatement&#10;&#10;2. Answer 2 question" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Create an interface - StatementSender - with a default method - sendStatement&#10;&#10;2. Answer 2 question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
