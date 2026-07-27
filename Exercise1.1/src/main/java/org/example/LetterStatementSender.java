@@ -1,5 +1,7 @@
 package org.example;
 
+
+
 public class LetterStatementSender implements StatementSender {
     @Override
     public void sendStatement(String statementContent) {
