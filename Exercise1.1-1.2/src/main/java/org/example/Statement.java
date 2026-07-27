@@ -3,8 +3,7 @@ package org.example;
 public interface Statement {
     void getCustomer(String customerName);
     void getBank(String bankName);
-    void getBalance(double balance);
-    void getTransactions(double transactions);
+    void getBalance(String monthName, double balance);
 }
 
 
