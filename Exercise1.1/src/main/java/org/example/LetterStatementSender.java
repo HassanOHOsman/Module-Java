@@ -1,8 +1,8 @@
 package org.example;
 
-public interface LetterStatementSender extends StatementSender {
+public class LetterStatementSender implements StatementSender {
     @Override
-    public void sendStatement() {
+    public void sendStatement(String statementContent) {
         System.out.println("The statement has been successfully posted to your address.");
     }
 }

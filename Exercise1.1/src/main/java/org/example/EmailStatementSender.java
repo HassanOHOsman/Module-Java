@@ -1,9 +1,9 @@
 package org.example;
 
-public interface EmailStatementSender extends StatementSender{
+public class EmailStatementSender implements StatementSender{
 
     @Override
-    public void sendStatement() {
+    public void sendStatement(String statementContent) {
         System.out.println("The statement has been successfully emailed to you.");
     }
 }

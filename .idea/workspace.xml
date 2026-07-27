@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Enable polymorphism where each interface can have it's own implementation of the sendStatement method, printing different success messages to the console depending on the mode by which the statement is sent to customers.">
-      <change afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/StatementDeliveryService.java" afterDir="false" />
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Implement the deliverStatement method so that it sends the  statement content using the sender.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/EmailStatementSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/EmailStatementSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/LetterStatementSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/LetterStatementSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/StatementDeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/StatementDeliveryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.StatementDeliveryService.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.CalculatorTest.executor": "Run",
     "JUnit.StringUtilitiesTest.splitCommaSeparatedLine.executor": "Run",
@@ -91,7 +94,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilitiesTest.splitCommaSeparatedLine">
+  <component name="RunManager">
     <configuration name="StringUtilitiesTest.splitCommaSeparatedLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exercise 1.3" />
       <option name="PACKAGE_NAME" value="" />
@@ -163,14 +166,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00011" summary="Get rid of irrelevant string portions from the getStatus method.">
-      <option name="closed" value="true" />
-      <created>1783782836925</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1783782836925</updated>
     </task>
     <task id="LOCAL-00012" summary="import import java.time.LocalDate; so that LocalDate class could be sued">
       <option name="closed" value="true" />
@@ -556,14 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785159632328</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="Implement the deliverStatement method so that it sends the  statement content using the sender.">
+      <option name="closed" value="true" />
+      <created>1785160358266</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1785160358266</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement a method that returns the square of an integer." />
     <MESSAGE value="Implement a method that returns the square root of decimal-point number (double)." />
     <MESSAGE value="Implement a test method to test the behaviour of testSquare() method." />
     <MESSAGE value="Implement a test method to test the behaviour of testSquareRoot() method." />
@@ -588,17 +590,7 @@
     <MESSAGE value="Answer the 3rd question in exercise 1.1" />
     <MESSAGE value="1. Extend the StatementSender interface twice, forming 2 inerfaces: LetterStatementSender and EmailStatementSender.&#10;&#10;2. Update the sendStatement by replacing the return type from String to void, since the implementations will only print to the console.&#10;&#10;3. Update the answer to question 1 due as a result of step (2) above." />
     <MESSAGE value="Enable polymorphism where each interface can have it's own implementation of the sendStatement method, printing different success messages to the console depending on the mode by which the statement is sent to customers." />
-    <option name="LAST_COMMIT_MESSAGE" value="Enable polymorphism where each interface can have it's own implementation of the sendStatement method, printing different success messages to the console depending on the mode by which the statement is sent to customers." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Implement the deliverStatement method so that it sends the  statement content using the sender." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement the deliverStatement method so that it sends the  statement content using the sender." />
   </component>
 </project>
