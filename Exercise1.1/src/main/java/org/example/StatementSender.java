@@ -15,13 +15,14 @@ public interface StatementSender {
      *
      * @param statementContent the content of the statement to be sent
      */
-    String sendStatement(String statementContent);
+    void sendStatement(String statementContent);
 }
 
 /*
 Questions and Answers:
 Q1. What should the return type of this method be?
-A1. String
+A1. There won't be any return, since the method is intended to print to the console. Thus, it should be
+    proceeded with "void".
 
 Q2. What is the visibility of interface methods? Why?
 A2. public so that they are easily accessible by all implementing classes.

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1. Create an interface - StatementSender - with a default method - sendStatement&#10;&#10;2. Answer 2 question">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/StatementSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/StatementSender.java" afterDir="false" />
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Answer the 3rd question in exercise 1.1">
+      <change afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/EmailStatementSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/LetterStatementSender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,22 +163,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00007" summary="Override getStatus() method in TimedTask class">
-      <option name="closed" value="true" />
-      <created>1783781694181</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1783781694181</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Create a 2nd specialised class PriorityTask with its own unique fields.">
-      <option name="closed" value="true" />
-      <created>1783782193165</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1783782193165</updated>
     </task>
     <task id="LOCAL-00009" summary="Override the getStatus method in the PriorityTask class">
       <option name="closed" value="true" />
@@ -556,15 +540,29 @@
       <option name="project" value="LOCAL" />
       <updated>1785152483975</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Add javadoc comments for the both the interface and its abstract method.">
+      <option name="closed" value="true" />
+      <created>1785158418619</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1785158418619</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Answer the 3rd question in exercise 1.1">
+      <option name="closed" value="true" />
+      <created>1785158635402</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1785158635402</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="filled out the test method testAdd with complete implementation with a test case" />
-    <MESSAGE value="filled out the test method testDivide with complete implementation with a test case" />
     <MESSAGE value="*filled out the test method testDivideByZeroThrows with complete implementation with a test case&#10;&#10;* updated the failure message for all test methods to be more generic and not tied to the test cases" />
     <MESSAGE value="Get rid of \ from org.junit.jupiter.api.Assertions at the top as it was causing a compilation issue" />
     <MESSAGE value="Implement a method that returns the square of an integer." />
@@ -588,7 +586,9 @@
     <MESSAGE value="Answer the question related to this segment of the exercise." />
     <MESSAGE value="Answer the automated testing reflection questions" />
     <MESSAGE value="1. Create an interface - StatementSender - with a default method - sendStatement&#10;&#10;2. Answer 2 question" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Create an interface - StatementSender - with a default method - sendStatement&#10;&#10;2. Answer 2 question" />
+    <MESSAGE value="Add javadoc comments for the both the interface and its abstract method." />
+    <MESSAGE value="Answer the 3rd question in exercise 1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Answer the 3rd question in exercise 1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
