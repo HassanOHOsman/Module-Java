@@ -15,9 +15,7 @@ public class StatementDeliveryService {
         statementDeliveryService.deliverStatement("March 2026", emailStatementSender);
         statementDeliveryService.deliverStatement("July 2026", letterStatementSender);
 
-
     }
-
 
     /*
     Reflections Questions:

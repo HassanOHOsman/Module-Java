@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1.Update the print out messages that each implementation of method sendStatement() will have inside the emailStatementSender and letterStatementSender classes.&#10;&#10;2. Inside StatementDeliveryService class: &#10;A. create main method&#10;B. create StatementDeliveryService instance that can send statements using post and email">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/LetterStatementSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/LetterStatementSender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/StatementDeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/StatementDeliveryService.java" afterDir="false" />
-    </list>
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Answer all 5 reflection questions" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,14 +161,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00014" summary="Create the intial form of the addTask() method &#10;&#10;import tasks.Task so that it can be used within the management package">
-      <option name="closed" value="true" />
-      <created>1783783935473</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1783783935473</updated>
     </task>
     <task id="LOCAL-00015" summary="Create a method addTask to store tasks into an array.">
       <option name="closed" value="true" />
@@ -558,14 +546,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785163530552</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Answer all 5 reflection questions">
+      <option name="closed" value="true" />
+      <created>1785189188433</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1785189188433</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement a test method to test the behaviour of testSquareRoot() method." />
     <MESSAGE value="update the squareRoot method to handle when values are negative" />
     <MESSAGE value="Add a test method to test square root for negative values which should throw an exception" />
     <MESSAGE value="Add a test case for testing the sare root for an irrational number. in this case a delta/tolerance should be added" />
@@ -590,6 +585,7 @@
     <MESSAGE value="Implement the deliverStatement method so that it sends the  statement content using the sender." />
     <MESSAGE value="Converting the 2 implementations of the StatementSender interface from interfaces to classes instead to resolve complilation bugs" />
     <MESSAGE value="1.Update the print out messages that each implementation of method sendStatement() will have inside the emailStatementSender and letterStatementSender classes.&#10;&#10;2. Inside StatementDeliveryService class: &#10;A. create main method&#10;B. create StatementDeliveryService instance that can send statements using post and email" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Update the print out messages that each implementation of method sendStatement() will have inside the emailStatementSender and letterStatementSender classes.&#10;&#10;2. Inside StatementDeliveryService class: &#10;A. create main method&#10;B. create StatementDeliveryService instance that can send statements using post and email" />
+    <MESSAGE value="Answer all 5 reflection questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Answer all 5 reflection questions" />
   </component>
 </project>
