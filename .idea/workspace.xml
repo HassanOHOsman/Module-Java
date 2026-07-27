@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1.Update branch name.&#10;2. Clean up.">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1. create Statement interface.&#10;2. Add another sendStatement() method -with Statement interface passed as an arg - inside StatementSender interface">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/StatementSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/StatementSender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
       <list>
         <option value="package-info" />
         <option value="JUnit5 Test Class" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -163,14 +164,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00016" summary="Set up a parametrised constructor for the Task class">
-      <option name="closed" value="true" />
-      <created>1783790851745</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1783790851745</updated>
     </task>
     <task id="LOCAL-00017" summary="Create a method that looks for tasks by their IDs and check id and complete them in case that're not already.">
       <option name="closed" value="true" />
@@ -556,14 +549,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785189407330</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="1. create Statement interface.&#10;2. Add another sendStatement() method -with Statement interface passed as an arg - inside StatementSender interface">
+      <option name="closed" value="true" />
+      <created>1785190689934</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1785190689934</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add a test method to test square root for negative values which should throw an exception" />
     <MESSAGE value="Add a test case for testing the sare root for an irrational number. in this case a delta/tolerance should be added" />
     <MESSAGE value="Create StringUtilitiesTest a test class with a BeforeEach annotation" />
     <MESSAGE value="Create test cases checking if a string is palindrome with edge cases" />
@@ -588,6 +588,7 @@
     <MESSAGE value="1.Update the print out messages that each implementation of method sendStatement() will have inside the emailStatementSender and letterStatementSender classes.&#10;&#10;2. Inside StatementDeliveryService class: &#10;A. create main method&#10;B. create StatementDeliveryService instance that can send statements using post and email" />
     <MESSAGE value="Answer all 5 reflection questions" />
     <MESSAGE value="1.Update branch name.&#10;2. Clean up." />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Update branch name.&#10;2. Clean up." />
+    <MESSAGE value="1. create Statement interface.&#10;2. Add another sendStatement() method -with Statement interface passed as an arg - inside StatementSender interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. create Statement interface.&#10;2. Add another sendStatement() method -with Statement interface passed as an arg - inside StatementSender interface" />
   </component>
 </project>
