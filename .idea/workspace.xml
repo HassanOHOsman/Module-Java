@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1. create Statement interface.&#10;2. Add another sendStatement() method -with Statement interface passed as an arg - inside StatementSender interface">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Create two implementations (classes) of Statement interface: AllTransactionsMonthlyStatement and OutgoingTransactionsMonthlyStatement classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/StatementSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/StatementSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/Statement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
       <list>
         <option value="package-info" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -164,22 +164,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00017" summary="Create a method that looks for tasks by their IDs and check id and complete them in case that're not already.">
-      <option name="closed" value="true" />
-      <created>1783791944007</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1783791944007</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Create a method that returns tasks based on their completion status">
-      <option name="closed" value="true" />
-      <created>1783874551992</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1783874551993</updated>
     </task>
     <task id="LOCAL-00019" summary="Give both specialised tasks: PriorityTask and TimedTask classes their own constructors to resolve compilation issues">
       <option name="closed" value="true" />
@@ -557,15 +541,29 @@
       <option name="project" value="LOCAL" />
       <updated>1785190689934</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Answer the first 2 questions from exercise 1.2">
+      <option name="closed" value="true" />
+      <created>1785191165680</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1785191165680</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Create two implementations (classes) of Statement interface: AllTransactionsMonthlyStatement and OutgoingTransactionsMonthlyStatement classes">
+      <option name="closed" value="true" />
+      <created>1785191368413</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1785191368413</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add a test case for testing the sare root for an irrational number. in this case a delta/tolerance should be added" />
-    <MESSAGE value="Create StringUtilitiesTest a test class with a BeforeEach annotation" />
     <MESSAGE value="Create test cases checking if a string is palindrome with edge cases" />
     <MESSAGE value="Create test cases (includeing edge cases) for test method splitCommaSeparatedLine" />
     <MESSAGE value="implement isPalindrome() method" />
@@ -589,6 +587,8 @@
     <MESSAGE value="Answer all 5 reflection questions" />
     <MESSAGE value="1.Update branch name.&#10;2. Clean up." />
     <MESSAGE value="1. create Statement interface.&#10;2. Add another sendStatement() method -with Statement interface passed as an arg - inside StatementSender interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. create Statement interface.&#10;2. Add another sendStatement() method -with Statement interface passed as an arg - inside StatementSender interface" />
+    <MESSAGE value="Answer the first 2 questions from exercise 1.2" />
+    <MESSAGE value="Create two implementations (classes) of Statement interface: AllTransactionsMonthlyStatement and OutgoingTransactionsMonthlyStatement classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create two implementations (classes) of Statement interface: AllTransactionsMonthlyStatement and OutgoingTransactionsMonthlyStatement classes" />
   </component>
 </project>
