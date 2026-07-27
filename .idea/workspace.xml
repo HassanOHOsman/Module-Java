@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Implement the deliverStatement method so that it sends the  statement content using the sender.">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Converting the 2 implementations of the StatementSender interface from interfaces to classes instead to resolve complilation bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/EmailStatementSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/EmailStatementSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/LetterStatementSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1/src/main/java/org/example/LetterStatementSender.java" afterDir="false" />
@@ -166,14 +166,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00012" summary="import import java.time.LocalDate; so that LocalDate class could be sued">
-      <option name="closed" value="true" />
-      <created>1783782961633</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1783782961633</updated>
     </task>
     <task id="LOCAL-00013" summary="Populate the TaskManager class with its own fields">
       <option name="closed" value="true" />
@@ -559,14 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785160358266</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Converting the 2 implementations of the StatementSender interface from interfaces to classes instead to resolve complilation bugs">
+      <option name="closed" value="true" />
+      <created>1785162566878</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1785162566878</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement a method that returns the square root of decimal-point number (double)." />
     <MESSAGE value="Implement a test method to test the behaviour of testSquare() method." />
     <MESSAGE value="Implement a test method to test the behaviour of testSquareRoot() method." />
     <MESSAGE value="update the squareRoot method to handle when values are negative" />
@@ -591,6 +590,7 @@
     <MESSAGE value="1. Extend the StatementSender interface twice, forming 2 inerfaces: LetterStatementSender and EmailStatementSender.&#10;&#10;2. Update the sendStatement by replacing the return type from String to void, since the implementations will only print to the console.&#10;&#10;3. Update the answer to question 1 due as a result of step (2) above." />
     <MESSAGE value="Enable polymorphism where each interface can have it's own implementation of the sendStatement method, printing different success messages to the console depending on the mode by which the statement is sent to customers." />
     <MESSAGE value="Implement the deliverStatement method so that it sends the  statement content using the sender." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement the deliverStatement method so that it sends the  statement content using the sender." />
+    <MESSAGE value="Converting the 2 implementations of the StatementSender interface from interfaces to classes instead to resolve complilation bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Converting the 2 implementations of the StatementSender interface from interfaces to classes instead to resolve complilation bugs" />
   </component>
 </project>
