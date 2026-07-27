@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Answer all 5 reflection questions" />
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1.Update branch name.&#10;2. Clean up.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +72,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "prep/sprint4-exercises",
+    "git-widget-placeholder": "prep/Interfaces-exercises",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/h.o./IdeaProjects/Module-Java",
     "onboarding.tips.debug.path": "/Users/h.o./IdeaProjects/Module-Java/Exercise1.1/src/main/java/org/example/Main.java",
@@ -161,14 +163,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00015" summary="Create a method addTask to store tasks into an array.">
-      <option name="closed" value="true" />
-      <created>1783790588622</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1783790588622</updated>
     </task>
     <task id="LOCAL-00016" summary="Set up a parametrised constructor for the Task class">
       <option name="closed" value="true" />
@@ -554,14 +548,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785189188433</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="1.Update branch name.&#10;2. Clean up.">
+      <option name="closed" value="true" />
+      <created>1785189407330</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1785189407330</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update the squareRoot method to handle when values are negative" />
     <MESSAGE value="Add a test method to test square root for negative values which should throw an exception" />
     <MESSAGE value="Add a test case for testing the sare root for an irrational number. in this case a delta/tolerance should be added" />
     <MESSAGE value="Create StringUtilitiesTest a test class with a BeforeEach annotation" />
@@ -586,6 +587,7 @@
     <MESSAGE value="Converting the 2 implementations of the StatementSender interface from interfaces to classes instead to resolve complilation bugs" />
     <MESSAGE value="1.Update the print out messages that each implementation of method sendStatement() will have inside the emailStatementSender and letterStatementSender classes.&#10;&#10;2. Inside StatementDeliveryService class: &#10;A. create main method&#10;B. create StatementDeliveryService instance that can send statements using post and email" />
     <MESSAGE value="Answer all 5 reflection questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Answer all 5 reflection questions" />
+    <MESSAGE value="1.Update branch name.&#10;2. Clean up." />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Update branch name.&#10;2. Clean up." />
   </component>
 </project>

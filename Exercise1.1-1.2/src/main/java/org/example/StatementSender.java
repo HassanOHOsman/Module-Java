@@ -16,6 +16,8 @@ public interface StatementSender {
      * @param statementContent the content of the statement to be sent
      */
     void sendStatement(String statementContent);
+
+    void sendStatement(Statement statement);
 }
 
 /*
