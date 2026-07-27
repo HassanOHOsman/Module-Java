@@ -25,4 +25,9 @@ A1. String
 
 Q2. What is the visibility of interface methods? Why?
 A2. public so that they are easily accessible by all implementing classes.
+
+Q3. Why is this Javadoc important? Think about who we are aiming this javadoc at
+(i.e. who will read it / benefit from it)?
+A3. Besides providing description, it let other developers understand the puporse behind the interface
+    and its abstract method.
 */
