@@ -6,6 +6,10 @@ public class StatementDeliveryService {
         statementSender.sendStatement(statementContent);
     }
 
+    public void deliverStatement(Statement statement, StatementSender statementSender) {
+        statementSender.sendStatement(statement);
+    }
+
     public static void main(String[] args) {
         StatementDeliveryService statementDeliveryService = new StatementDeliveryService();
 
