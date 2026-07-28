@@ -18,4 +18,9 @@ Q2. What methods might Statement have? Think about the type of information youâ€
 A2. getCustomer() method - to get the name of a customer, getBalance() method - to get the balance in the statement,
     getBank() method - to get the name of the bank and many more.
 
+Q3. How should the implementation behaviour differ?
+A3. Once abstracted methods inherited from the interface, each class should override and implement each abstract
+    method differently depending on the class role and responsibility.
+
+
  */

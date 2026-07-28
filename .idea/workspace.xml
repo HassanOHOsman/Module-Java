@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add abstract methods inside the Statement interface,">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/AllTransactionsMonthlyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/AllTransactionsMonthlyStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/OutgoingTransactionsMonthlyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/OutgoingTransactionsMonthlyStatement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/Statement.java" afterDir="false" />
-    </list>
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="implements all Statement interface's abstract methods different for the 2 classes AllTransactionsMonthlyStatement and OutgoingTransactionsMonthlyStatement." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,14 +161,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00020" summary="Create a task instance and print its summary to the console">
-      <option name="closed" value="true" />
-      <created>1783876213123</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1783876213123</updated>
     </task>
     <task id="LOCAL-00021" summary="Create a task instance and print its summary to the console">
       <option name="closed" value="true" />
@@ -559,14 +546,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785191891788</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="implements all Statement interface's abstract methods different for the 2 classes AllTransactionsMonthlyStatement and OutgoingTransactionsMonthlyStatement.">
+      <option name="closed" value="true" />
+      <created>1785192924460</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1785192924460</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create test cases (includeing edge cases) for test method splitCommaSeparatedLine" />
     <MESSAGE value="implement isPalindrome() method" />
     <MESSAGE value="Added a regex for the split method to ensure that white spaces are removed from the individual strings in a list." />
     <MESSAGE value="Answer 2 questions from ex 1.2" />
@@ -591,6 +585,7 @@
     <MESSAGE value="Answer the first 2 questions from exercise 1.2" />
     <MESSAGE value="Create two implementations (classes) of Statement interface: AllTransactionsMonthlyStatement and OutgoingTransactionsMonthlyStatement classes" />
     <MESSAGE value="Add abstract methods inside the Statement interface," />
-    <option name="LAST_COMMIT_MESSAGE" value="Add abstract methods inside the Statement interface," />
+    <MESSAGE value="implements all Statement interface's abstract methods different for the 2 classes AllTransactionsMonthlyStatement and OutgoingTransactionsMonthlyStatement." />
+    <option name="LAST_COMMIT_MESSAGE" value="implements all Statement interface's abstract methods different for the 2 classes AllTransactionsMonthlyStatement and OutgoingTransactionsMonthlyStatement." />
   </component>
 </project>
