@@ -7,8 +7,9 @@ public class StatementService {
     public void generateAndSendOutgoingStatement(){
 
         Statement statement = new OutgoingTransactionsMonthlyStatement();
+        StatementSender statementSender = new StatementSender();
         StatementDeliveryService statementDeliveryService = new StatementDeliveryService();
-        statementDeliveryService.deliverStatement(statement);
+        statementDeliveryService.deliverStatement(statement, statementSender);
 
     }
 
@@ -16,6 +17,6 @@ public class StatementService {
 
         Statement statement = new AllTransactionsMonthlyStatement();
         StatementDeliveryService statementDeliveryService = new StatementDeliveryService();
-        statementDeliveryService.deliverStatement(statement);
+        statementDeliveryService.deliverStatement(statement, statementSender);
     }
 }

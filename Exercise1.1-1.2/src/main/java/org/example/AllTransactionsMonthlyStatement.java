@@ -1,19 +1,39 @@
 package org.example;
 
+import java.time.LocalDate;
+
 public class AllTransactionsMonthlyStatement implements Statement{
 
+    private String customerName;
+    private String bankName;
+    private double balance;
+    private LocalDate statementDate;
+
     @Override
-    public void getCustomer(String customerName) {
-        System.out.println("Customer Name is " + customerName);
+    public String getCustomerName() {
+        return customerName;
     }
 
     @Override
-    public void getBank(String bankName) {
-        System.out.println("You bank with " + bankName);
+    public String getBankName() {
+        return bankName;
     }
 
     @Override
-    public void getBalance(String monthName, double balance) {
-        System.out.println("For the month of " + monthName + ", the net balance is " + balance + ".");
+    public double getBalance() {
+        return balance;
     }
+
+    @Override
+    public LocalDate getStatementDate() {
+        return statementDate;
+    }
+
+    public AllTransactionsMonthlyStatement(String customerName, String bankName, double balance, LocalDate statementDate) {
+        this.customerName = customerName;
+        this.bankName = bankName;
+        this.balance = balance;
+        this.statementDate = statementDate;
+    }
+
 }

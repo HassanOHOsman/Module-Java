@@ -1,9 +1,12 @@
 package org.example;
 
+import java.time.LocalDate;
+
 public interface Statement {
-    void getCustomer(String customerName);
-    void getBank(String bankName);
-    void getBalance(String monthName, double balance);
+    String getCustomerName();
+    String getBankName();
+    double getBalance();
+    LocalDate getStatementDate();
 }
 
 

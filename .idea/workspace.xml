@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1. Create a second deliverStatement - inside StatementDeliveryService- that take Statement as arg.&#10;&#10;2. implement 2 methods inside StatementService to generate and send 2 types of statements.">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Override the 2nd version of the sendStatement with Statement arg into both classes: EmailStatementSender and LetterStatementSender.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/EmailStatementSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/EmailStatementSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/AllTransactionsMonthlyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/AllTransactionsMonthlyStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/OutgoingTransactionsMonthlyStatement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/OutgoingTransactionsMonthlyStatement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/Statement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/Statement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/StatementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/StatementService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,14 +167,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00023" summary="Create a timed task instance and print its summary to the console">
-      <option name="closed" value="true" />
-      <created>1783878095434</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1783878095434</updated>
     </task>
     <task id="LOCAL-00024" summary="Create a task manager instance that add different task types, complete tasks (if not complted already) and finally print out all task by status filter.">
       <option name="closed" value="true" />
@@ -557,14 +552,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785238499526</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Override the 2nd version of the sendStatement with Statement arg into both classes: EmailStatementSender and LetterStatementSender.">
+      <option name="closed" value="true" />
+      <created>1785239458537</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1785239458537</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Answer 2 questions from ex 1.2" />
     <MESSAGE value="Answer 3 questions from ex 1.3" />
     <MESSAGE value="Implement a test case for isPalindrome method using @ParameterizedTest and @CsvSource" />
     <MESSAGE value="Implement a test case for isPalindrome method using @ParameterizedTest and @MethodSource" />
@@ -589,6 +591,7 @@
     <MESSAGE value="implements all Statement interface's abstract methods different for the 2 classes AllTransactionsMonthlyStatement and OutgoingTransactionsMonthlyStatement." />
     <MESSAGE value="Answer question 3 from exercise 1.2" />
     <MESSAGE value="1. Create a second deliverStatement - inside StatementDeliveryService- that take Statement as arg.&#10;&#10;2. implement 2 methods inside StatementService to generate and send 2 types of statements." />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Create a second deliverStatement - inside StatementDeliveryService- that take Statement as arg.&#10;&#10;2. implement 2 methods inside StatementService to generate and send 2 types of statements." />
+    <MESSAGE value="Override the 2nd version of the sendStatement with Statement arg into both classes: EmailStatementSender and LetterStatementSender." />
+    <option name="LAST_COMMIT_MESSAGE" value="Override the 2nd version of the sendStatement with Statement arg into both classes: EmailStatementSender and LetterStatementSender." />
   </component>
 </project>
