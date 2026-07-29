@@ -25,5 +25,11 @@ Q3. How should the implementation behaviour differ?
 A3. Once abstracted methods inherited from the interface, each class should override and implement each abstract
     method differently depending on the class role and responsibility.
 
+Q4. You’re now starting to build up a hierarchy of classes and interfaces. Have a look back through the reflection
+    questions about and apply them to your refactored system - are the answers the same? Are interfaces even more
+    important now? Imagine we increased the complexity even further by adding more services and functionality - do
+    interfaces become more or less important?
+A4. In a summary, interfaces become more improtant as a system complexity increases.
+
 
  */
