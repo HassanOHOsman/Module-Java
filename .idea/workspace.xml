@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Update the 2nd sendStatement verison in EmailStatementSender so that it uses the methods (getters) that statement expose.">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Update the methods that create and send both types of statements inside the StatementService class.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/StatementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/StatementService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/StatementDeliveryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise1.1-1.2/src/main/java/org/example/StatementDeliveryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,14 +164,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00026" summary="Redo the getTasksByStatus method again">
-      <option name="closed" value="true" />
-      <created>1783880843973</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1783880843973</updated>
     </task>
     <task id="LOCAL-00027" summary="Override the default toString method so that the status of all completed tasks is showing">
       <option name="closed" value="true" />
@@ -557,14 +549,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785322611071</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Update the methods that create and send both types of statements inside the StatementService class.">
+      <option name="closed" value="true" />
+      <created>1785324893352</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1785324893352</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement a test case for isPalindrome method using @ParameterizedTest and @MethodSource" />
     <MESSAGE value="Set up a maven-structured project for exercise 1.4" />
     <MESSAGE value="Add the Calculator and StringUtilities classes as well as their tests classes" />
     <MESSAGE value="Answer the question related to this segment of the exercise." />
@@ -589,6 +588,7 @@
     <MESSAGE value="Override the 2nd version of the sendStatement with Statement arg into both classes: EmailStatementSender and LetterStatementSender." />
     <MESSAGE value="Update the statement interface abstract methods to be what will eventually be the getters of both classes" />
     <MESSAGE value="Update the 2nd sendStatement verison in EmailStatementSender so that it uses the methods (getters) that statement expose." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the 2nd sendStatement verison in EmailStatementSender so that it uses the methods (getters) that statement expose." />
+    <MESSAGE value="Update the methods that create and send both types of statements inside the StatementService class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update the methods that create and send both types of statements inside the StatementService class." />
   </component>
 </project>

@@ -11,13 +11,18 @@ public class StatementDeliveryService {
     }
 
     public static void main(String[] args) {
-        StatementDeliveryService statementDeliveryService = new StatementDeliveryService();
+        // StatementDeliveryService statementDeliveryService = new StatementDeliveryService();
+
+        StatementService statementService = new StatementService();
 
         EmailStatementSender emailStatementSender = new EmailStatementSender();
         LetterStatementSender letterStatementSender = new LetterStatementSender();
 
-        statementDeliveryService.deliverStatement("March 2026", emailStatementSender);
-        statementDeliveryService.deliverStatement("July 2026", letterStatementSender);
+        statementService.generateAndSendAllTransactionsStatement(emailStatementSender);
+        statementService.generateAndSendOutgoingStatement(letterStatementSender);
+
+        // statementDeliveryService.deliverStatement("March 2026", emailStatementSender);
+        // statementDeliveryService.deliverStatement("July 2026", letterStatementSender);
 
     }
 
