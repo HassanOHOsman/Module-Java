@@ -1,6 +1,9 @@
 package org.example;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class StudentGrades {
     private String[] firstNames;
@@ -27,5 +30,13 @@ public class StudentGrades {
 
     public Set<String> getDistinctFirstNames(String[] firstNames) {
         return Set.of(firstNames);
+    }
+
+    public Set<String> getDistinctFirstNamesInAlphabeticalOrder(String[] firstNames) {
+        Set<String> set = new TreeSet<>();
+        set.addAll(Arrays.asList(firstNames));
+        return set;
+
+
     }
 }
