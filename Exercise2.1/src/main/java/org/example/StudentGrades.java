@@ -1,9 +1,6 @@
 package org.example;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class StudentGrades {
     private String[] firstNames;
@@ -37,6 +34,11 @@ public class StudentGrades {
         set.addAll(Arrays.asList(firstNames));
         return set;
 
+
+    }
+
+    public Map<String[], int[]> getLastNameToGrade(String[] lastNames, int[] grades) {
+        return Map.of(lastNames, grades);
 
     }
 }
