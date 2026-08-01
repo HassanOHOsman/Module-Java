@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Set;
+
 public class StudentGrades {
     private String[] firstNames;
     private String[] lastNames;
@@ -21,5 +23,9 @@ public class StudentGrades {
 
     public int[] getGrades() {
         return grades;
+    }
+
+    public Set<String> getDistinctFirstNames(String[] firstNames) {
+        return Set.of(firstNames);
     }
 }
