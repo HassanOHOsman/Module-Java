@@ -26,7 +26,9 @@ public class StudentGrades {
     }
 
     public Set<String> getDistinctFirstNames(String[] firstNames) {
-        return Set.of(firstNames);
+        Set<String> set = new HashSet<>();
+        set.addAll(Arrays.asList(firstNames));
+        return set;
     }
 
     public Set<String> getDistinctFirstNamesInAlphabeticalOrder(String[] firstNames) {
