@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class Student {
@@ -20,6 +21,13 @@ public class Student {
     }
 
     public Map<Student, Integer> getStudentToGrade() {
+        Map<Student, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < firstNames.length; i ++) {
+            map.put(Student, Integer);
+        }
+
+        return map;
 
     }
 
