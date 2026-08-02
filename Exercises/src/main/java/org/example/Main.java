@@ -21,11 +21,15 @@ public class Main {
         System.out.println(studentGrades.getStudentToGrade());
 
 
-        String[] firstNamesArray = studentGrades.getFirstNames();
-        Set<String> distinctFirstNamesArray = studentGrades.getDistinctFirstNames(firstNames);
-        Set<String> distinctFirstNamesInAlphabeticalOrder = studentGrades.getDistinctFirstNamesInAlphabeticalOrder(firstNames);
+        List<String> firstNamesList = Arrays.asList(studentGrades.getFirstNames());
+        Set<String> distinctFirstNamesSet = studentGrades.getDistinctFirstNames(firstNames);
+        Set<String> distinctFirstNamesInAlphabeticalOrderSet = studentGrades.getDistinctFirstNamesInAlphabeticalOrder(firstNames);
         Map<String, Integer> lastNamesToGradesMap = studentGrades.getLastNameToGrade(lastNames, grades);
         Map<Student, Integer> studentToGradeMap = studentGrades.getStudentToGrade();
+
+
+
+
 
 
     }
