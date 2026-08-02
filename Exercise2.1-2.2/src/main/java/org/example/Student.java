@@ -40,5 +40,11 @@ public class Student {
         return Objects.hash(firstName, lastName);
     }
 
+    @Override
+    public String toString(){
+        return firstName + " " + lastName;
+
+    }
+
 
 }

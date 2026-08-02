@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Correct the fields in the Student class to be Strings and not arrays of Strings">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Override the hashCode() and equals() methods so that this map to work safely">
       <change beforePath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/StudentGrades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise2.1-2.2/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1-2.2/target/classes/org/example/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,14 +146,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00020" summary="Create a task instance and print its summary to the console">
-      <option name="closed" value="true" />
-      <created>1783876213123</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1783876213123</updated>
     </task>
     <task id="LOCAL-00021" summary="Create a task instance and print its summary to the console">
       <option name="closed" value="true" />
@@ -543,14 +531,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785695422507</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Override the hashCode() and equals() methods so that this map to work safely">
+      <option name="closed" value="true" />
+      <created>1785696512824</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1785696512824</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create test cases (includeing edge cases) for test method splitCommaSeparatedLine" />
     <MESSAGE value="implement isPalindrome() method" />
     <MESSAGE value="Added a regex for the split method to ensure that white spaces are removed from the individual strings in a list." />
     <MESSAGE value="Answer 2 questions from ex 1.2" />
@@ -575,7 +570,8 @@
     <MESSAGE value="1. Copy the solution (so far) of exercise 2.2 to me merged with exercise 2.1.&#10;&#10;2. Remove module - exercise 2.2 for the above reason." />
     <MESSAGE value="Update data sets (arrays)" />
     <MESSAGE value="Correct the fields in the Student class to be Strings and not arrays of Strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correct the fields in the Student class to be Strings and not arrays of Strings" />
+    <MESSAGE value="Override the hashCode() and equals() methods so that this map to work safely" />
+    <option name="LAST_COMMIT_MESSAGE" value="Override the hashCode() and equals() methods so that this map to work safely" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
