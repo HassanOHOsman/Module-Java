@@ -53,7 +53,7 @@ public class StudentGrades {
         Map<Student, Integer> map = new HashMap<>();
 
         for (int i = 0; i < firstNames.length; i ++) {
-            Student student = new Student(firstName[i], lastName[i]);
+            Student student = new Student(firstNames[i], lastNames[i]);
             map.put(student, grades[i]);
         }
         return map;

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Update data sets (arrays)">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Correct the fields in the Student class to be Strings and not arrays of Strings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1-2.2/src/main/java/org/example/StudentGrades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise2.1-2.2/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1-2.2/target/classes/org/example/Main.class" afterDir="false" />
     </list>
@@ -148,14 +150,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00019" summary="Give both specialised tasks: PriorityTask and TimedTask classes their own constructors to resolve compilation issues">
-      <option name="closed" value="true" />
-      <created>1783875793838</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1783875793838</updated>
     </task>
     <task id="LOCAL-00020" summary="Create a task instance and print its summary to the console">
       <option name="closed" value="true" />
@@ -541,14 +535,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785688633427</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Correct the fields in the Student class to be Strings and not arrays of Strings">
+      <option name="closed" value="true" />
+      <created>1785695422507</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1785695422507</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create test cases checking if a string is palindrome with edge cases" />
     <MESSAGE value="Create test cases (includeing edge cases) for test method splitCommaSeparatedLine" />
     <MESSAGE value="implement isPalindrome() method" />
     <MESSAGE value="Added a regex for the split method to ensure that white spaces are removed from the individual strings in a list." />
@@ -573,7 +574,8 @@
     <MESSAGE value="1. implement getStudentToGrade method.&#10;&#10;2. Add the array sets into the main method and update the data to include twins." />
     <MESSAGE value="1. Copy the solution (so far) of exercise 2.2 to me merged with exercise 2.1.&#10;&#10;2. Remove module - exercise 2.2 for the above reason." />
     <MESSAGE value="Update data sets (arrays)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update data sets (arrays)" />
+    <MESSAGE value="Correct the fields in the Student class to be Strings and not arrays of Strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct the fields in the Student class to be Strings and not arrays of Strings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -18,6 +18,8 @@ public class Main {
         System.out.println(studentGrades.getDistinctFirstNamesInAlphabeticalOrder(firstNames));
         System.out.println(studentGrades.getLastNameToGrade(lastNames, grades));
 
+        System.out.println(studentGrades.getStudentToGrade());
+
     }
 
 }
