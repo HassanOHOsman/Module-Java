@@ -39,8 +39,12 @@ public class StudentGrades {
 
     }
 
-    public Map<String[], int[]> getLastNameToGrade(String[] lastNames, int[] grades) {
-        return Map.of(lastNames, grades);
+    public Map<String, Integer> getLastNameToGrade(String[] lastNames, int[] grades) {
+        Map<String, Integer> map = new HashMap<>();
 
+        for (int i = 0; i < lastNames.length; i++) {
+            map.put(lastNames[i], grades[i]);
+        }
+        return map;
     }
 }
