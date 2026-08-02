@@ -48,3 +48,14 @@ public class StudentGrades {
         return map;
     }
 }
+
+/*
+Reflection
+
+Suppose there are a set of twins in the class, so there are some duplicate lastNames. Can we still build a map of
+students to their grades?
+
+Answer: perhaps we might need a 4th array that provide unique values that could be associated with each student.
+Something like an array of student's ID numbers can work. Otherwise, maybe there's a way for the key to be customized
+to include both the first and last names of each student in such cases.
+ */

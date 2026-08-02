@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1. Update getDistinctFirstNames methods by using HashSet constructor so that duplicate elements are excluded.&#10;&#10;2. Create a main method inside a Main class, and start calling methods to print into console">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1. Correct getLastNameToGrade to use HashMap instead and then loop through lastname array and place each lastname with it's corresponding lastname as key-value pairs in the HashMap structure.&#10;&#10;&#10;2. Add and resue the rest of the methods from StudentGrades class in the main method to print out their output">
+      <change afterPath="$PROJECT_DIR$/Exercise2.2/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise2.1/src/main/java/org/example/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1/src/main/java/org/example/StudentGrades.java" afterDir="false" />
     </list>
@@ -62,7 +63,7 @@
     "git-widget-placeholder": "prep/data-structures-exercises",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/h.o./IdeaProjects/Module-Java",
-    "onboarding.tips.debug.path": "/Users/h.o./IdeaProjects/Module-Java/Exercise2.1/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "/Users/h.o./IdeaProjects/Module-Java/Exercise2.2/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
     "vue.rearranger.settings.migration": "true"
   }
@@ -147,14 +148,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00011" summary="Get rid of irrelevant string portions from the getStatus method.">
-      <option name="closed" value="true" />
-      <created>1783782836925</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1783782836925</updated>
     </task>
     <task id="LOCAL-00012" summary="import import java.time.LocalDate; so that LocalDate class could be sued">
       <option name="closed" value="true" />
@@ -540,14 +533,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785684951992</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="1. Correct getLastNameToGrade to use HashMap instead and then loop through lastname array and place each lastname with it's corresponding lastname as key-value pairs in the HashMap structure.&#10;&#10;&#10;2. Add and resue the rest of the methods from StudentGrades class in the main method to print out their output">
+      <option name="closed" value="true" />
+      <created>1785685899564</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1785685899564</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement a method that returns the square of an integer." />
     <MESSAGE value="Implement a method that returns the square root of decimal-point number (double)." />
     <MESSAGE value="Implement a test method to test the behaviour of testSquare() method." />
     <MESSAGE value="Implement a test method to test the behaviour of testSquareRoot() method." />
@@ -572,15 +572,21 @@
     <MESSAGE value="Create a method getDistinctFirstNamesInAlphabeticalOrder that returns ONLY unique first names of students, in alphabetical order." />
     <MESSAGE value="Create a method getLastNameToGrade that returns last names and grades of each student as key value pairs." />
     <MESSAGE value="1. Update getDistinctFirstNames methods by using HashSet constructor so that duplicate elements are excluded.&#10;&#10;2. Create a main method inside a Main class, and start calling methods to print into console" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Update getDistinctFirstNames methods by using HashSet constructor so that duplicate elements are excluded.&#10;&#10;2. Create a main method inside a Main class, and start calling methods to print into console" />
+    <MESSAGE value="1. Correct getLastNameToGrade to use HashMap instead and then loop through lastname array and place each lastname with it's corresponding lastname as key-value pairs in the HashMap structure.&#10;&#10;&#10;2. Add and resue the rest of the methods from StudentGrades class in the main method to print out their output" />
+    <option name="LAST_COMMIT_MESSAGE" value="1. Correct getLastNameToGrade to use HashMap instead and then loop through lastname array and place each lastname with it's corresponding lastname as key-value pairs in the HashMap structure.&#10;&#10;&#10;2. Add and resue the rest of the methods from StudentGrades class in the main method to print out their output" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Exercise2.1/src/main/java/org/example/Main.java</url>
-          <line>23</line>
+          <line>21</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Exercise2.2/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
