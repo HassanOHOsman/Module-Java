@@ -21,7 +21,7 @@ public class Main {
         System.out.println(studentGrades.getStudentToGrade());
 
 
-        List<String> firstNamesList = Arrays.asList(studentGrades.getFirstNames());
+        List<String> firstNamesList = new ArrayList<>(Arrays.asList(studentGrades.getFirstNames()));
         Set<String> distinctFirstNamesSet = studentGrades.getDistinctFirstNames(firstNames);
         Set<String> distinctFirstNamesInAlphabeticalOrderSet = studentGrades.getDistinctFirstNamesInAlphabeticalOrder(firstNames);
         Map<String, Integer> lastNamesToGradesMap = studentGrades.getLastNameToGrade(lastNames, grades);
@@ -33,6 +33,14 @@ public class Main {
         distinctFirstNamesInAlphabeticalOrderSet.add("Patrick");
         lastNamesToGradesMap.put("Smith", 49);
         studentToGradeMap.put(new Student("Patrick", "Smith"), 49);
+
+        firstNamesList.remove("Patrick");
+        distinctFirstNamesSet.remove("Patrick");
+        distinctFirstNamesInAlphabeticalOrderSet.remove("Patrick");
+        lastNamesToGradesMap.remove("Smith", 49);
+        studentToGradeMap.remove(new Student("Patrick", "Smith"), 49);
+
+
 
 
     }
