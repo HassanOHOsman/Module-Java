@@ -28,8 +28,11 @@ public class Main {
         Map<Student, Integer> studentToGradeMap = studentGrades.getStudentToGrade();
 
 
-
-
+        firstNamesList.add("Patrick");
+        distinctFirstNamesSet.add("Patrick");
+        distinctFirstNamesInAlphabeticalOrderSet.add("Patrick");
+        lastNamesToGradesMap.put("Smith", 49);
+        studentToGradeMap.put(new Student("Patrick", "Smith"), 49);
 
 
     }
