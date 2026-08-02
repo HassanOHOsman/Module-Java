@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1. Correct getLastNameToGrade to use HashMap instead and then loop through lastname array and place each lastname with it's corresponding lastname as key-value pairs in the HashMap structure.&#10;&#10;&#10;2. Add and resue the rest of the methods from StudentGrades class in the main method to print out their output">
-      <change afterPath="$PROJECT_DIR$/Exercise2.2/pom.xml" afterDir="false" />
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add a constructor, and getters.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercise2.1/src/main/java/org/example/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1/src/main/java/org/example/StudentGrades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise2.2/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.2/src/main/java/org/example/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,30 +147,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00012" summary="import import java.time.LocalDate; so that LocalDate class could be sued">
-      <option name="closed" value="true" />
-      <created>1783782961633</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1783782961633</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Populate the TaskManager class with its own fields">
-      <option name="closed" value="true" />
-      <created>1783783161636</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1783783161636</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Create the intial form of the addTask() method &#10;&#10;import tasks.Task so that it can be used within the management package">
-      <option name="closed" value="true" />
-      <created>1783783935473</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1783783935473</updated>
     </task>
     <task id="LOCAL-00015" summary="Create a method addTask to store tasks into an array.">
       <option name="closed" value="true" />
@@ -541,16 +516,37 @@
       <option name="project" value="LOCAL" />
       <updated>1785685899564</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Answer the reflection question from exercise 2.1">
+      <option name="closed" value="true" />
+      <created>1785686487885</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1785686487885</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Create a Student class with fields firstName and lastName">
+      <option name="closed" value="true" />
+      <created>1785686578852</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1785686578852</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Add a constructor, and getters.">
+      <option name="closed" value="true" />
+      <created>1785686638712</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1785686638712</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement a method that returns the square root of decimal-point number (double)." />
-    <MESSAGE value="Implement a test method to test the behaviour of testSquare() method." />
-    <MESSAGE value="Implement a test method to test the behaviour of testSquareRoot() method." />
     <MESSAGE value="update the squareRoot method to handle when values are negative" />
     <MESSAGE value="Add a test method to test square root for negative values which should throw an exception" />
     <MESSAGE value="Add a test case for testing the sare root for an irrational number. in this case a delta/tolerance should be added" />
@@ -573,7 +569,10 @@
     <MESSAGE value="Create a method getLastNameToGrade that returns last names and grades of each student as key value pairs." />
     <MESSAGE value="1. Update getDistinctFirstNames methods by using HashSet constructor so that duplicate elements are excluded.&#10;&#10;2. Create a main method inside a Main class, and start calling methods to print into console" />
     <MESSAGE value="1. Correct getLastNameToGrade to use HashMap instead and then loop through lastname array and place each lastname with it's corresponding lastname as key-value pairs in the HashMap structure.&#10;&#10;&#10;2. Add and resue the rest of the methods from StudentGrades class in the main method to print out their output" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Correct getLastNameToGrade to use HashMap instead and then loop through lastname array and place each lastname with it's corresponding lastname as key-value pairs in the HashMap structure.&#10;&#10;&#10;2. Add and resue the rest of the methods from StudentGrades class in the main method to print out their output" />
+    <MESSAGE value="Answer the reflection question from exercise 2.1" />
+    <MESSAGE value="Create a Student class with fields firstName and lastName" />
+    <MESSAGE value="Add a constructor, and getters." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a constructor, and getters." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -585,7 +584,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Exercise2.2/src/main/java/org/example/Main.java</url>
-          <line>13</line>
+          <line>8</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -1,20 +1,26 @@
 package org.example;
 
+import java.util.Map;
+
 public class Student {
-    private String firstName;
-    private String lastName;
+    private String[] firstNames;
+    private String[] lastNames;
 
-    public Student(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
+    public Student(String[] firstName, String[] lastName) {
+        this.firstNames = firstName;
+        this.lastNames = lastName;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String[] getFirstNames() {
+        return firstNames;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String[] getLastNames() {
+        return lastNames;
+    }
+
+    public Map<Student, Integer> getStudentToGrade() {
+
     }
 
 
