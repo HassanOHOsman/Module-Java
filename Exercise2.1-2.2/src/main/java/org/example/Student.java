@@ -4,22 +4,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Student {
-    private String[] firstNames;
-    private String[] lastNames;
+    private String firstName;
+    private String lastName;
 
-    public Student(String[] firstName, String[] lastName) {
-        this.firstNames = firstName;
-        this.lastNames = lastName;
+    public Student(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public String[] getFirstNames() {
-        return firstNames;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public String[] getLastNames() {
-        return lastNames;
+    public String getLastName() {
+        return lastName;
     }
-
-
-
 }
