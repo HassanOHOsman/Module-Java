@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add a constructor, and getters.">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="1. implement getStudentToGrade method.&#10;&#10;2. Add the array sets into the main method and update the data to include twins.">
+      <change afterPath="$PROJECT_DIR$/Exercise2.1/src/main/java/org/example/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercise2.1/src/main/java/org/example/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.1/src/main/java/org/example/StudentGrades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercise2.2/src/main/java/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercise2.2/src/main/java/org/example/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,22 +149,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00015" summary="Create a method addTask to store tasks into an array.">
-      <option name="closed" value="true" />
-      <created>1783790588622</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1783790588622</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Set up a parametrised constructor for the Task class">
-      <option name="closed" value="true" />
-      <created>1783790851745</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1783790851745</updated>
     </task>
     <task id="LOCAL-00017" summary="Create a method that looks for tasks by their IDs and check id and complete them in case that're not already.">
       <option name="closed" value="true" />
@@ -540,15 +526,29 @@
       <option name="project" value="LOCAL" />
       <updated>1785686638712</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="1.Correct the fields of Student to the correct data type (arrays of strings).&#10;&#10;2. Reflect this change on the constructor and getters.">
+      <option name="closed" value="true" />
+      <created>1785687402209</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1785687402209</updated>
+    </task>
+    <task id="LOCAL-00065" summary="1. implement getStudentToGrade method.&#10;&#10;2. Add the array sets into the main method and update the data to include twins.">
+      <option name="closed" value="true" />
+      <created>1785687945861</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1785687945861</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update the squareRoot method to handle when values are negative" />
-    <MESSAGE value="Add a test method to test square root for negative values which should throw an exception" />
     <MESSAGE value="Add a test case for testing the sare root for an irrational number. in this case a delta/tolerance should be added" />
     <MESSAGE value="Create StringUtilitiesTest a test class with a BeforeEach annotation" />
     <MESSAGE value="Create test cases checking if a string is palindrome with edge cases" />
@@ -572,7 +572,9 @@
     <MESSAGE value="Answer the reflection question from exercise 2.1" />
     <MESSAGE value="Create a Student class with fields firstName and lastName" />
     <MESSAGE value="Add a constructor, and getters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a constructor, and getters." />
+    <MESSAGE value="1.Correct the fields of Student to the correct data type (arrays of strings).&#10;&#10;2. Reflect this change on the constructor and getters." />
+    <MESSAGE value="1. implement getStudentToGrade method.&#10;&#10;2. Add the array sets into the main method and update the data to include twins." />
+    <option name="LAST_COMMIT_MESSAGE" value="1. implement getStudentToGrade method.&#10;&#10;2. Add the array sets into the main method and update the data to include twins." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -584,7 +586,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Exercise2.2/src/main/java/org/example/Main.java</url>
-          <line>8</line>
+          <line>11</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

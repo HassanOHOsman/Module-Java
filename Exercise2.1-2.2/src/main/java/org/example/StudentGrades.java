@@ -47,6 +47,18 @@ public class StudentGrades {
         }
         return map;
     }
+
+
+    public Map<Student, Integer> getStudentToGrade() {
+        Map<Student, Integer> map = new HashMap<>();
+
+        for (int i = 0; i < firstNames.length; i ++) {
+            map.put(Student[i], Integer[i]);
+        }
+
+        return map;
+
+    }
 }
 
 /*
