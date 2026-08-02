@@ -40,8 +40,8 @@ public class Main {
         lastNamesToGradesMap.remove("Smith", 49);
         studentToGradeMap.remove(new Student("Patrick", "Smith"), 49);
 
-
-
+        lastNamesToGradesMap.replace("Smith", 49, 0);
+        studentToGradeMap.replace(new Student("Patrick", "Smith"), 49, 0);
 
     }
 
