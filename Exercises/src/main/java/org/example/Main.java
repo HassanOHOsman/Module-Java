@@ -43,8 +43,17 @@ public class Main {
         lastNamesToGradesMap.replace("Smith", 49, 0);
         studentToGradeMap.replace(new Student("Patrick", "Smith"), 49, 0);
 
-    }
+        int highestGrade = Arrays.stream(grades).max().getAsInt();
+        System.out.println(highestGrade); // Highest grade is 48
 
+        int lowestGrade = Arrays.stream(grades).min().getAsInt();
+        System.out.println(lowestGrade); // Lowest grade is 22
+
+
+
+
+
+    }
 
 
 }

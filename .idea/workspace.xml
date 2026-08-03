@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Modify the collections that handle grades to update the grade from the current value to 0">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Answer all reflection questions to exercise 2.3 (not 3.2)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/org/example/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/org/example/StudentGrades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercises/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/target/classes/org/example/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,22 +160,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00027" summary="Override the default toString method so that the status of all completed tasks is showing">
-      <option name="closed" value="true" />
-      <created>1783881414026</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1783881414026</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Create Calculator class inside example.com package">
-      <option name="closed" value="true" />
-      <created>1784581222381</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1784581222381</updated>
     </task>
     <task id="LOCAL-00029" summary="Create CalculatorTest class in the same package: com.example">
       <option name="closed" value="true" />
@@ -554,15 +537,29 @@
       <option name="project" value="LOCAL" />
       <updated>1785702526640</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Answer all reflection questions to exercise 3.2">
+      <option name="closed" value="true" />
+      <created>1785747608912</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1785747608914</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Answer all reflection questions to exercise 2.3 (not 3.2)">
+      <option name="closed" value="true" />
+      <created>1785747635542</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1785747635542</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Set up a maven-structured project for exercise 1.4" />
-    <MESSAGE value="Add the Calculator and StringUtilities classes as well as their tests classes" />
     <MESSAGE value="Answer the question related to this segment of the exercise." />
     <MESSAGE value="Answer the automated testing reflection questions" />
     <MESSAGE value="Create StudentGrades class class with 3 fields (arrays) and a constructor that takes those arrays as parameters.&#10;&#10;Add getters to allow accessing those fields." />
@@ -586,7 +583,9 @@
     <MESSAGE value="Modify each of the collections created to include the new student and their grade" />
     <MESSAGE value="1. Update the collections adding a new student.&#10;2. Modify the collections to remove that student." />
     <MESSAGE value="Modify the collections that handle grades to update the grade from the current value to 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify the collections that handle grades to update the grade from the current value to 0" />
+    <MESSAGE value="Answer all reflection questions to exercise 3.2" />
+    <MESSAGE value="Answer all reflection questions to exercise 2.3 (not 3.2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Answer all reflection questions to exercise 2.3 (not 3.2)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
