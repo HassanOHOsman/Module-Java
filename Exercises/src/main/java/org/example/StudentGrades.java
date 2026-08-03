@@ -106,5 +106,4 @@ A5. a) is a list interface that may contain different data types
 
    Regarding List<?> firstNames perhaps it's a list of certain type which is yet to be confirmed.
 
-
  */
