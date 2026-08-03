@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Modify each of the collections created to include the new student and their grade">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Modify the collections that handle grades to update the grade from the current value to 0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/org/example/StudentGrades.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/org/example/StudentGrades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercises/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/target/classes/org/example/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +32,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "HassanOHOsman"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/HassanOHOsman/Module-Java.git",
+    "accountId": "1aa6b458-30a5-442e-85ac-b0a5e5d78b3d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -40,34 +53,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.CalculatorTest.executor": "Run",
-    "JUnit.StringUtilitiesTest.splitCommaSeparatedLine.executor": "Run",
-    "JUnit.StringUtilitiesTest.testIsPalindrome.executor": "Run",
-    "JUnit.StringUtilitiesTest.testIsPalindrome2.executor": "Run",
-    "JUnit.StringUtilitiesTest.testIsPalindrome3.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "prep/data-structures-exercises",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/h.o./IdeaProjects/Module-Java",
-    "onboarding.tips.debug.path": "/Users/h.o./IdeaProjects/Module-Java/Exercise2.2/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.CalculatorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.splitCommaSeparatedLine.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.testIsPalindrome.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.testIsPalindrome2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StringUtilitiesTest.testIsPalindrome3.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;prep/data-structures-exercises&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/h.o./IdeaProjects/Module-Java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/h.o./IdeaProjects/Module-Java/Exercise2.2/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -148,22 +161,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00025" summary="Add validation inside TaskManager methods: completeTask() and getTaskByStatus() to perform actions only when a task exist inside the array of 10 spots.">
-      <option name="closed" value="true" />
-      <created>1783879312861</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1783879312861</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Redo the getTasksByStatus method again">
-      <option name="closed" value="true" />
-      <created>1783880843973</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1783880843973</updated>
     </task>
     <task id="LOCAL-00027" summary="Override the default toString method so that the status of all completed tasks is showing">
       <option name="closed" value="true" />
@@ -541,15 +538,29 @@
       <option name="project" value="LOCAL" />
       <updated>1785700706722</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="1. Update the collections adding a new student.&#10;2. Modify the collections to remove that student.">
+      <option name="closed" value="true" />
+      <created>1785702233891</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1785702233891</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Modify the collections that handle grades to update the grade from the current value to 0">
+      <option name="closed" value="true" />
+      <created>1785702526640</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1785702526640</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implement a test case for isPalindrome method using @ParameterizedTest and @CsvSource" />
-    <MESSAGE value="Implement a test case for isPalindrome method using @ParameterizedTest and @MethodSource" />
     <MESSAGE value="Set up a maven-structured project for exercise 1.4" />
     <MESSAGE value="Add the Calculator and StringUtilities classes as well as their tests classes" />
     <MESSAGE value="Answer the question related to this segment of the exercise." />
@@ -573,7 +584,9 @@
     <MESSAGE value="exercise 2.3: Call each of the methods already created and assign the results to new variables" />
     <MESSAGE value="Correct some variables names and data types" />
     <MESSAGE value="Modify each of the collections created to include the new student and their grade" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify each of the collections created to include the new student and their grade" />
+    <MESSAGE value="1. Update the collections adding a new student.&#10;2. Modify the collections to remove that student." />
+    <MESSAGE value="Modify the collections that handle grades to update the grade from the current value to 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify the collections that handle grades to update the grade from the current value to 0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
