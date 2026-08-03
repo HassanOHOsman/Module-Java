@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Answer all reflection questions to exercise 2.3 (not 3.2)">
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Add statements to help find the highest and lowest grades.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercises/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Exercises/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Exercises/target/classes/org/example/Main.class" afterDir="false" />
@@ -160,14 +160,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00029" summary="Create CalculatorTest class in the same package: com.example">
-      <option name="closed" value="true" />
-      <created>1784581362434</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1784581362434</updated>
     </task>
     <task id="LOCAL-00030" summary="create calculator of Calculator type and before each test run create an instance of that class.">
       <option name="closed" value="true" />
@@ -553,14 +545,21 @@
       <option name="project" value="LOCAL" />
       <updated>1785747635542</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Add statements to help find the highest and lowest grades.">
+      <option name="closed" value="true" />
+      <created>1785748290559</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1785748290559</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Answer the question related to this segment of the exercise." />
     <MESSAGE value="Answer the automated testing reflection questions" />
     <MESSAGE value="Create StudentGrades class class with 3 fields (arrays) and a constructor that takes those arrays as parameters.&#10;&#10;Add getters to allow accessing those fields." />
     <MESSAGE value="Create a method getDistinctFirstNames that returns ONLY unique first names of students" />
@@ -585,14 +584,15 @@
     <MESSAGE value="Modify the collections that handle grades to update the grade from the current value to 0" />
     <MESSAGE value="Answer all reflection questions to exercise 3.2" />
     <MESSAGE value="Answer all reflection questions to exercise 2.3 (not 3.2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Answer all reflection questions to exercise 2.3 (not 3.2)" />
+    <MESSAGE value="Add statements to help find the highest and lowest grades." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add statements to help find the highest and lowest grades." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Exercises/src/main/java/org/example/Main.java</url>
-          <line>21</line>
+          <line>22</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
