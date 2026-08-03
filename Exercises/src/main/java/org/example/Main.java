@@ -2,6 +2,7 @@ package org.example;
 
 
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -51,6 +52,7 @@ public class Main {
         System.out.println(lowestGrade); // Lowest grade is 22
 
 
+
         Student highestGradeStudent = studentToGradeMap.entrySet()
                 .stream()
                 .max(Map.Entry.comparingByValue())
@@ -62,6 +64,12 @@ public class Main {
 
 
 
+
+        Set<String> duplicateFirstNames = firstNamesList.stream()
+                .filter(firstName -> Collections.frequency(firstNamesList, firstName) > 1)
+                .collect(Collectors.toSet());
+
+        System.out.println(duplicateFirstNames);
 
 
     }
