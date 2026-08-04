@@ -4,11 +4,11 @@ import java.io.FileReader;
 public class FileReaderService {
     String readFile(String filename) {
 
-        BufferedReader bufferedReader = new BufferedReader(new FileReader(filename));
-
-
-
-
+        try{
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(filename));
+        } catch(FileNotFoundException e) {
+            System.out.println("File not found");
+        }
 
 
     }
