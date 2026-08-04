@@ -15,7 +15,10 @@ public class FileReaderService {
         } catch (IOException e) {
             System.out.println("Could not read file");
         } finally {
-            bufferedReader.close();
+            if (bufferedReader != null) {
+                bufferedReader.close();
+            }
+
         }
 
 
