@@ -6,12 +6,16 @@ import java.io.IOException;
 public class FileReaderService {
     String readFile(String filename) {
 
+        BufferedReader bufferedReader = null;
+
         try{
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(filename));
+            bufferedReader = new BufferedReader(new FileReader(filename));
         } catch(FileNotFoundException e) {
             System.out.println("File not found");
         } catch (IOException e) {
             System.out.println("Could not read file");
+        } finally {
+            bufferedReader.close();
         }
 
 
