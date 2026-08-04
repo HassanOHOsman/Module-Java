@@ -4,7 +4,7 @@ import java.io.FileReader;
 public class FileReaderService {
     String readFile(String filename) {
 
-        BufferedReader bufferedReader = new BufferedReader(filename);
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(filename));
 
 
 
