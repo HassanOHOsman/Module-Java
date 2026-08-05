@@ -22,8 +22,10 @@ public class FileReaderService {
             }
         } catch(FileNotFoundException e) {
             System.out.println("File not found");
+            return "";
         } catch (IOException e) {
             System.out.println("Failed to read file");
+            return "";
         } finally {
             if (bufferedReader != null) {
                 try {
@@ -45,6 +47,18 @@ public class FileReaderService {
     }
 
     static void main(String[] args) {
+
+        FileReaderService fileReaderService = new FileReaderService();
+        try{
+
+            fileReaderService.readFile("main.js");
+            fileReaderService.readFile("");
+            fileReaderService.readFile(null);
+
+        } catch (InvalidFileFormatException e) {
+            System.out.println("File is empty");
+        }
+
 
     }
 
