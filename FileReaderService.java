@@ -19,10 +19,15 @@ public class FileReaderService {
         } catch(FileNotFoundException e) {
             System.out.println("File not found");
         } catch (IOException e) {
-            System.out.println("Could not read file");
+            System.out.println("Failed to read file");
         } finally {
             if (bufferedReader != null) {
-                bufferedReader.close();
+                try {
+                    bufferedReader.close();
+                } catch(IOException e) {
+                    System.out.println("Failed to close file");
+                }
+
             }
 
         }
