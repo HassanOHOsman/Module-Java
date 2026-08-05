@@ -7,9 +7,15 @@ public class FileReaderService {
     String readFile(String filename) {
 
         BufferedReader bufferedReader = null;
+        String line;
+        String fileContent = "";
 
         try{
             bufferedReader = new BufferedReader(new FileReader(filename));
+
+            while((line = bufferedReader.readLine()) != null) {
+                fileContent += line;
+            }
         } catch(FileNotFoundException e) {
             System.out.println("File not found");
         } catch (IOException e) {
@@ -20,6 +26,7 @@ public class FileReaderService {
             }
 
         }
+        return fileContent;
 
 
     }
@@ -27,4 +34,6 @@ public class FileReaderService {
     static void main(String[] args) {
 
     }
+
+
 }
