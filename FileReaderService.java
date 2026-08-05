@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class FileReaderService {
-    String readFile(String filename) {
+    String readFile(String filename) throws InvalidFileFormatException {
 
         if (filename == null) {
             throw new IllegalArgumentException("File can not be null");
@@ -35,6 +35,10 @@ public class FileReaderService {
             }
 
         }
+        if (fileContent.length() == 0) {
+            throw new InvalidFileFormatException("File is empty");
+        }
+
         return fileContent;
 
 
