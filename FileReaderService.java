@@ -6,6 +6,10 @@ import java.io.IOException;
 public class FileReaderService {
     String readFile(String filename) {
 
+        if (filename == null) {
+            throw new IllegalArgumentException("File can not be null");
+        }
+
         BufferedReader bufferedReader = null;
         String line;
         String fileContent = "";
