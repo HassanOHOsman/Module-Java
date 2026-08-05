@@ -40,10 +40,7 @@ public class FileReaderService {
         if (fileContent.length() == 0) {
             throw new InvalidFileFormatException("File is empty");
         }
-
         return fileContent;
-
-
     }
 
     static void main(String[] args) {
@@ -51,16 +48,13 @@ public class FileReaderService {
         FileReaderService fileReaderService = new FileReaderService();
         try{
 
-            fileReaderService.readFile("main.js");
+            fileReaderService.readFile("main.txt");
             fileReaderService.readFile("");
             fileReaderService.readFile(null);
 
         } catch (InvalidFileFormatException e) {
             System.out.println("File is empty");
         }
-
-
     }
-
 
 }
