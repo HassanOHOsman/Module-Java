@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -17,12 +16,8 @@ import org.junit.jupiter.params.provider.Arguments;
 
 public class StringUtilitiesTest {
 
-    StringUtilities stringUtilities;
+    StringUtilities stringUtilities = new StringUtilities();
 
-    @BeforeEach
-    void setUp() {
-        stringUtilities = new StringUtilities();
-    }
 
 //    @Test
 //    void testIsPalindrome1(){
