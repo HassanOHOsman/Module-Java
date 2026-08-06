@@ -14,7 +14,7 @@ import org.junit.jupiter.params.provider.Arguments;
 
 
 
-public class StringUtilitiesTest {
+private class StringUtilitiesTest {
 
     StringUtilities stringUtilities = new StringUtilities();
 
