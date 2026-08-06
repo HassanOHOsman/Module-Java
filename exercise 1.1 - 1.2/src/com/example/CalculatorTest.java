@@ -33,9 +33,10 @@ class CalculatorTest {
     @Test
     @DisplayName("Method returns the square root of an integer")
     void testSquareRoot() {
-        assertEquals(5, calculator.squareRoot(25), "The square root of a value should equal to the expected result");
-        assertEquals(1.73205, calculator.squareRoot(3), 0.00001, "The square root of a value should equal to the expected result");
+        assertEquals(5, calculator.squareRoot(25), "The square root of 25 should be 5");
+        assertEquals(1.73205, calculator.squareRoot(3), 0.00001, "The square root of 3 should be 0.00001");
     }
+
 
     @Test
     @DisplayName("Square root method throws an exception for negative values")
