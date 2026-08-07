@@ -19,21 +19,6 @@ import org.junit.jupiter.params.provider.Arguments;
 /**
  * Verifies that the methods of {@code StringUtilities} class perform the expected utility operations
  * on strings.
- *
- * @author Hassan Osman
- * @version 3.0
- * @since 1.0
- * @see StringUtilities
- * @see List
- * @see Test
- * @see BeforeEach
- * @see DisplayName
- * @see Assertions
- * @see Stream
- * @see ParameterizedTest
- * @see CsvSource
- * @see MethodSource
- * @see Arguments
  */
 public class StringUtilitiesTest {
 

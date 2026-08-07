@@ -2,12 +2,6 @@ package org.example;
 
 /**
  * Represents a calculator that performs basic arithmetic operations.
- *
- * @author Hassan Osman
- * @version 2.0
- * @since 1.0
- * @see IllegalArgumentException
- * @see Math
  */
 public class Calculator {
 

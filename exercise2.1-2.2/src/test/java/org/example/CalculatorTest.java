@@ -7,16 +7,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Verifies whether the methods from {@code Calculator} class perform their expected arithmetic operations.
- *
- * @author Hassan Osman
- * @version 5.0
- * @since 1.0
- * @see Calculator
- * @see BeforeEach
- * @see DisplayName
- * @see Test
- * @see Assertions
- * @see IllegalArgumentException
  */
 class CalculatorTest {
 

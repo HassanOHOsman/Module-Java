@@ -6,13 +6,6 @@ import java.util.List;
 /**
  * Represents a string processor with two methods: one that checks if a string is palindrome, while the other splits a
  * comma-separated string into a list of strings.
- *
- * @author Hassan Osman
- * @version 4.0
- * @since 1.0
- * @see StringBuilder
- * @see Arrays
- * @see List
  */
 public class StringUtilities {
 
