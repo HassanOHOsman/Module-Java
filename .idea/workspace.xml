@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Answer the automated testing reflection questions">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExerciseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExerciseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise 1.3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise1.4/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +31,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "HassanOHOsman"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HassanOHOsman&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HassanOHOsman/Module-Java.git",
-    "accountId": "1aa6b458-30a5-442e-85ac-b0a5e5d78b3d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HassanOHOsman/Module-Java.git&quot;,
+    &quot;accountId&quot;: &quot;1aa6b458-30a5-442e-85ac-b0a5e5d78b3d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -71,7 +73,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "prep/streams-and-optionals-exercises",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/h.o./IdeaProjects/Module-Java",
     "onboarding.tips.debug.path": "/Users/h.o./IdeaProjects/Module-Java/exercise1.4/src/main/java/org/example/Main.java",
