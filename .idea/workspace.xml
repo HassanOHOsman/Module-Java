@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Inside ShapeCounter class, implement a method - countShapesWithSides - that takes 1) a map containing shapes and their respective number of sides, and 2) the number of sides. It returns the number of shapes that has that number of sides." />
+    <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Construct Remainders class and start implementing printRemainders method in it.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercise/src/main/java/org/example/Remainders.java" beforeDir="false" afterPath="$PROJECT_DIR$/exercise/src/main/java/org/example/Remainders.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,14 +175,6 @@
       <workItem from="1783960614649" duration="30000" />
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
-    </task>
-    <task id="LOCAL-00010" summary="Improve field naming (from isApprovalRequired to simply approvalRequired) and remove the irrelavant logic in the getStuts">
-      <option name="closed" value="true" />
-      <created>1783782761660</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1783782761660</updated>
     </task>
     <task id="LOCAL-00011" summary="Get rid of irrelevant string portions from the getStatus method.">
       <option name="closed" value="true" />
@@ -565,14 +560,21 @@
       <option name="project" value="LOCAL" />
       <updated>1786482883619</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Construct Remainders class and start implementing printRemainders method in it.">
+      <option name="closed" value="true" />
+      <created>1786483219628</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1786483219628</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Get rid of \ from org.junit.jupiter.api.Assertions at the top as it was causing a compilation issue" />
     <MESSAGE value="Implement a method that returns the square of an integer." />
     <MESSAGE value="Implement a method that returns the square root of decimal-point number (double)." />
     <MESSAGE value="Implement a test method to test the behaviour of testSquare() method." />
@@ -597,6 +599,7 @@
     <MESSAGE value="1. Complete implementing the printNamesStartingWithA method that aims to print to the console all names start with A (case in-sensitive).&#10;&#10;2. Construct a Main class with main method inside, create a StreamExercise isntance and class the printNamesStartingWithA from there." />
     <MESSAGE value="Update the class name from StreamsExercise to NameFinder to comply with the requirements." />
     <MESSAGE value="Inside ShapeCounter class, implement a method - countShapesWithSides - that takes 1) a map containing shapes and their respective number of sides, and 2) the number of sides. It returns the number of shapes that has that number of sides." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inside ShapeCounter class, implement a method - countShapesWithSides - that takes 1) a map containing shapes and their respective number of sides, and 2) the number of sides. It returns the number of shapes that has that number of sides." />
+    <MESSAGE value="Construct Remainders class and start implementing printRemainders method in it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Construct Remainders class and start implementing printRemainders method in it." />
   </component>
 </project>
