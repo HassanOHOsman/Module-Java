@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a2a4b3-3bc1-408d-9516-e0850e0b791b" name="Changes" comment="Answer the automated testing reflection questions">
-      <change beforePath="$PROJECT_DIR$/ExerciseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExerciseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise 1.3/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercise1.4/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/src/main/java/org/example/StreamExercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExerciseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestStreamsExercise.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.StreamExercise.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.CalculatorTest.executor": "Run",
     "JUnit.StringUtilitiesTest.splitCommaSeparatedLine.executor": "Run",
@@ -76,7 +79,7 @@
     "git-widget-placeholder": "prep/streams-and-optionals-exercises",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/h.o./IdeaProjects/Module-Java",
-    "onboarding.tips.debug.path": "/Users/h.o./IdeaProjects/Module-Java/exercise1.4/src/main/java/org/example/Main.java",
+    "onboarding.tips.debug.path": "/Users/h.o./IdeaProjects/Module-Java/exercise/src/main/java/org/example/Main.java",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   }
@@ -89,7 +92,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilitiesTest.splitCommaSeparatedLine">
+  <component name="RunManager">
     <configuration name="StringUtilitiesTest.splitCommaSeparatedLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="exercise 1.3" />
       <option name="PACKAGE_NAME" value="" />
@@ -587,5 +590,16 @@
     <MESSAGE value="Answer the question related to this segment of the exercise." />
     <MESSAGE value="Answer the automated testing reflection questions" />
     <option name="LAST_COMMIT_MESSAGE" value="Answer the automated testing reflection questions" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/exercise/src/main/java/org/example/Main.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
