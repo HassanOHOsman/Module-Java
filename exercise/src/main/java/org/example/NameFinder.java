@@ -4,7 +4,7 @@ package org.example;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class StreamExercise {
+public class NameFinder {
 
     public void printNamesStartingWithA(List<String> listOfNames) {
         List<String> namesStartsWithA = listOfNames.stream()
