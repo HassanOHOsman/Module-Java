@@ -32,6 +32,19 @@ public class Remainders {
                 .collect(Collectors.groupingBy(number -> number % divisor));
 
         return result;
+    }
+
+
+
+    public Map<Integer, Long> remainderCounts(int divisor) {
+
+        Map<Integer, Long> result = IntStream.rangeClosed(1, 20)
+                .boxed()
+                .collect(Collectors.groupingBy(number -> number % divisor, Collectors.counting()));
+
+        return result;
 
     }
+
+
 }
