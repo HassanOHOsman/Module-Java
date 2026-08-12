@@ -9,13 +9,17 @@ public class Remainders {
             if (i < 20) {
                 remainders += remainder + ",";
             } else {
-                remainders += remainder
+                remainders += remainder;
             }
-
         }
         remainders += "\n";
 
         System.out.println(remainders);
+    }
+
+
+
+    public void remainderGroups(int) {
 
 
     }
