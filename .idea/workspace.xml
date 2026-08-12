@@ -177,14 +177,6 @@
       <workItem from="1784580290433" duration="17371000" />
       <workItem from="1784728613660" duration="122000" />
     </task>
-    <task id="LOCAL-00012" summary="import import java.time.LocalDate; so that LocalDate class could be sued">
-      <option name="closed" value="true" />
-      <created>1783782961633</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1783782961633</updated>
-    </task>
     <task id="LOCAL-00013" summary="Populate the TaskManager class with its own fields">
       <option name="closed" value="true" />
       <created>1783783161636</created>
@@ -569,7 +561,15 @@
       <option name="project" value="LOCAL" />
       <updated>1786485098791</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Complete implementing printRemainders method to successfully log out the remainders of the division of numbers from 1 -20 inclusive by any divisor (integer), comma-separated.">
+      <option name="closed" value="true" />
+      <created>1786531114518</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1786531114518</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
