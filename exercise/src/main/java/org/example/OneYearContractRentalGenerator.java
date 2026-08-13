@@ -9,6 +9,7 @@ public class OneYearContractRentalGenerator implements RentalCalculator {
         List<Rental> rentals = new ArrayList<>();
 
         Contract contract1 = new Contract();
+        contract1
 
 
 

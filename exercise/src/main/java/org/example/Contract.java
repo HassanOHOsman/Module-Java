@@ -23,4 +23,25 @@ public class Contract {
         this.carPrice = carPrice;
         this.contractLengthYears = contractLengthYears;
     }
+
+
+    public String getCustomerName() {
+        return customerName;
+    }
+
+    public String getCustomerAge() {
+        return customerAge;
+    }
+
+    public LocalDate getStartDate() {
+        return startDate;
+    }
+
+    public double getCarPrice() {
+        return carPrice;
+    }
+
+    public ContractLengthYears getContractLengthYears() {
+        return contractLengthYears;
+    }
 }
