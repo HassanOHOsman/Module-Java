@@ -14,7 +14,7 @@ public class OneYearContractRentalGenerator implements RentalCalculator {
 
         for (int i = 1; i <= 12; i ++) {
 
-            Rental rental = new Rental(LocalDate.now(), monthlyCapital, monthlyInterest, false);
+            Rental rental = new Rental(contract.getStartDate().plusMonths(i), monthlyCapital, monthlyInterest, false);
 
             rentals.add(rental);
 
