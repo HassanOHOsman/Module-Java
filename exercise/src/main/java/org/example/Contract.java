@@ -14,4 +14,13 @@ public class Contract {
     }
 
     private ContractLengthYears contractLengthYears;
+
+
+    public Contract(String customerName, String customerAge, LocalDate startDate, double carPrice, ContractLengthYears contractLengthYears) {
+        this.customerName = customerName;
+        this.customerAge = customerAge;
+        this.startDate = startDate;
+        this.carPrice = carPrice;
+        this.contractLengthYears = contractLengthYears;
+    }
 }
