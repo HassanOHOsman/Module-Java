@@ -14,7 +14,12 @@ public class ThreeYearContractRentalGenerator implements RentalCalculator{
             double monthlyCapital = contract.getCarPrice() / 36;
             double monthlyInterest = monthlyCapital * 0.03;
 
-            Rental rental =  new Rental(LocalDate dueDate, monthlyCapital, monthlyInterest, boolean paid);
+            LocalDate dueDate = contract.getStartDate().plusMonths(i);
+            LocalDate today = LocalDate.now();
+
+            boolean paid = dueDate.isBefore(today) || dueDate.isEqual(today);
+
+            Rental rental =  new Rental(dueDate, monthlyCapital, monthlyInterest, paid);
 
         }
 
