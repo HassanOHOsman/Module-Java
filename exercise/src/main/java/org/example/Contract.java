@@ -7,6 +7,11 @@ public class Contract {
     private String customerAge;
     private LocalDate startDate;
     private double carPrice;
-    private int contractLengthYears;
 
+    enum ContractLengthYears {
+        One_YEAR,
+        THREE_YEARS
+    }
+
+    private ContractLengthYears contractLengthYears;
 }
