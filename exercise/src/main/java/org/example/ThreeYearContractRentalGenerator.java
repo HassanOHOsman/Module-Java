@@ -9,10 +9,10 @@ public class ThreeYearContractRentalGenerator implements RentalCalculator{
     public List<Rental> generateRentals(Contract contract) {
         List<Rental> rentals = new ArrayList<>();
 
-        for (int i = 1; i <= 36; i ++) {
+        double monthlyCapital = contract.getCarPrice() / 36;
+        double monthlyInterest = monthlyCapital * 0.03;
 
-            double monthlyCapital = contract.getCarPrice() / 36;
-            double monthlyInterest = monthlyCapital * 0.03;
+        for (int i = 1; i <= 36; i ++) {
 
             LocalDate dueDate = contract.getStartDate().plusMonths(i);
             LocalDate today = LocalDate.now();
@@ -21,9 +21,10 @@ public class ThreeYearContractRentalGenerator implements RentalCalculator{
 
             Rental rental =  new Rental(dueDate, monthlyCapital, monthlyInterest, paid);
 
+            rentals.add(rental);
+
         }
 
-        ;
 
         return rentals;
     }
