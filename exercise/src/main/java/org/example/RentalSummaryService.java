@@ -36,7 +36,9 @@ public class RentalSummaryService {
                 .mapToDouble(Rental:: getInterestAmount)
                 .sum();
 
-        int numberOfRemainingRentals = 0;
+        int numberOfRemainingRentals = (int) rentals.stream()
+                .filter(rental -> !rental.isPaid())
+                .count();
 
         RentalSummary rentalSummary = new RentalSummary(contract.getCustomerName(), contract.getCustomerAge(), contract.getStartDate(), endDate, nextDueRental, capitalAmount, interestAmount, numberOfRemainingRentals);
 
