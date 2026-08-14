@@ -33,9 +33,12 @@ public class Rental {
     }
 
     public String toString() {
-        return "Due Date: " + dueDate +
-                ", Capital Amount: " + capitalAmount +
-                ", Interest Amount: " + interestAmount +
-                ", Paid: " + paid;
+        return String.format(
+                "Due Date: %s, Capital Amount: %.2f, Interest Amount: %.2f, Paid: %s",
+                dueDate,
+                capitalAmount,
+                interestAmount,
+                paid
+        );
     }
 }
