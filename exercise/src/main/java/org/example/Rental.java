@@ -31,4 +31,11 @@ public class Rental {
     public boolean isPaid() {
         return paid;
     }
+
+    public String toString() {
+        return "Due Date: " + dueDate +
+                ", Capital Amount: " + capitalAmount +
+                ", Interest Amount: " + interestAmount +
+                ", Paid: " + paid;
+    }
 }
