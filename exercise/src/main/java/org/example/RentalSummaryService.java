@@ -27,7 +27,11 @@ public class RentalSummaryService {
                 .findFirst()
                 .orElse(null);
 
-        double capitalAmount = 0;
+        double capitalAmount = rentals.stream()
+                .mapToDouble(Rental::getCapitalAmount)
+                .sum();
+
+
         double interestAmount = 0;
         int numberOfRemainingRentals = 0;
 
