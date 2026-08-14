@@ -34,6 +34,13 @@ public class RentalSummaryService {
 
 
     void printRentalSummary(Contract contract) {
+        Optional<RentalSummary> rentalSummary = generateRentalSummary(contract);
+
+        if (rentalSummary.isPresent()) {
+            System.out.println(rentalSummary.get());
+        } else {
+            System.out.println("Contract is completed.");
+        }
 
     }
 }
