@@ -21,7 +21,12 @@ public class RentalSummaryService {
         List<Rental> rentals = rentalCalculator.generateRentals(contract);
 
         LocalDate endDate = rentals.getLast().getDueDate();
-        Rental nextDueRental = null;
+
+        Rental nextDueRental = rentals.stream()
+                .filter(rental -> rental.isPaid())
+                .findFirst()
+                .orElse(null);
+
         double capitalAmount = 0;
         double interestAmount = 0;
         int numberOfRemainingRentals = 0;
