@@ -73,8 +73,8 @@ public class RentalSummary {
                 "\nEnd Date: " + endDate +
                 "\nRentals: " + rentals +
                 "\nNext Due Rental: " + nextDueRental +
-                "\nTotal Capital: " + capitalAmount +
-                "\nTotal Interest: " + interestAmount +
+                "\nTotal Capital: " + String.format("%.2f", capitalAmount) +
+                "\nTotal Interest: " + String.format("%.2f", interestAmount) +
                 "\nRemaining Rentals: " + numberOfRemainingRentals;
     }
 }
