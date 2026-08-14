@@ -15,4 +15,20 @@ public class Rental {
         this.interestAmount = interestAmount;
         this.paid = paid;
     }
+
+    public LocalDate getDueDate() {
+        return dueDate;
+    }
+
+    public double getCapitalAmount() {
+        return capitalAmount;
+    }
+
+    public double getInterestAmount() {
+        return interestAmount;
+    }
+
+    public boolean isPaid() {
+        return paid;
+    }
 }
