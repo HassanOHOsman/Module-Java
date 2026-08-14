@@ -40,7 +40,7 @@ public class RentalSummaryService {
                 .filter(rental -> !rental.isPaid())
                 .count();
 
-        RentalSummary rentalSummary = new RentalSummary(contract.getCustomerName(), contract.getCustomerAge(), contract.getStartDate(), endDate, nextDueRental, capitalAmount, interestAmount, numberOfRemainingRentals);
+        RentalSummary rentalSummary = new RentalSummary(contract.getCustomerName(), contract.getCustomerAge(), contract.getStartDate(), endDate, rentals,  nextDueRental, capitalAmount, interestAmount, numberOfRemainingRentals);
 
         if (LocalDate.now().isAfter(endDate)) {
             return Optional.empty();
