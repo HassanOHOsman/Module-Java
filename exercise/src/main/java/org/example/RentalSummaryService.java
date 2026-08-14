@@ -50,7 +50,6 @@ public class RentalSummaryService {
     }
 
 
-
     void printRentalSummary(Contract contract) {
         Optional<RentalSummary> rentalSummary = generateRentalSummary(contract);
 
