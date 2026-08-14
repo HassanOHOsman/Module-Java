@@ -63,4 +63,17 @@ public class RentalSummary {
     public int getNumberOfRemainingRentals() {
         return numberOfRemainingRentals;
     }
+
+
+    @Override
+    public String toString(){
+        return "Customer: " + customerName +
+                "\nAge: " + customerAge +
+                "\nStart Date: " + startDate +
+                "\nEnd Date: " + endDate +
+                "\nNext Due Rental: " + nextDueRental +
+                "\nTotal Capital: " + capitalAmount +
+                "\nTotal Interest: " + interestAmount +
+                "\nRemaining Rentals: " + numberOfRemainingRentals;
+    }
 }
