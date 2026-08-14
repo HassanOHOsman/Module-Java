@@ -59,6 +59,5 @@ public class RentalSummaryService {
         } else {
             System.out.println("Contract is completed.");
         }
-
     }
 }
