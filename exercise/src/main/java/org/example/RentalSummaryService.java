@@ -23,7 +23,7 @@ public class RentalSummaryService {
         LocalDate endDate = rentals.getLast().getDueDate();
 
         Rental nextDueRental = rentals.stream()
-                .filter(rental -> rental.isPaid())
+                .filter(rental -> !rental.isPaid())
                 .findFirst()
                 .orElse(null);
 
