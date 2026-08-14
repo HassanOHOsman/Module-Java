@@ -1,5 +1,6 @@
 package org.example;
 
+import java.time.LocalDate;
 import java.util.Optional;
 import java.util.List;
 
@@ -19,7 +20,13 @@ public class RentalSummaryService {
 
         List<Rental> rentals = rentalCalculator.generateRentals(contract);
 
-        RentalSummary rentalSummary = new RentalSummary(contract.getCustomerName(), contract.getCustomerAge(), contract.getStartDate(), );
+        LocalDate endDate = rentals.getLast().getDueDate();
+        Rental nextDueRental = null;
+        double capitalAmount = 0;
+        double interestAmount = 0;
+        int numberOfRemainingRentals = 0;
+
+        RentalSummary rentalSummary = new RentalSummary(contract.getCustomerName(), contract.getCustomerAge(), contract.getStartDate(), endDate, nextDueRental, capitalAmount, interestAmount, numberOfRemainingRentals);
 
     }
 
