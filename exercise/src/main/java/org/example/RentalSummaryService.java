@@ -28,6 +28,7 @@ public class RentalSummaryService {
 
         RentalSummary rentalSummary = new RentalSummary(contract.getCustomerName(), contract.getCustomerAge(), contract.getStartDate(), endDate, nextDueRental, capitalAmount, interestAmount, numberOfRemainingRentals);
 
+        return Optional.of(rentalSummary);
     }
 
 
