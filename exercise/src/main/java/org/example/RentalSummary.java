@@ -71,6 +71,7 @@ public class RentalSummary {
                 "\nAge: " + customerAge +
                 "\nStart Date: " + startDate +
                 "\nEnd Date: " + endDate +
+                "\nRentals: " + rentals +
                 "\nNext Due Rental: " + nextDueRental +
                 "\nTotal Capital: " + capitalAmount +
                 "\nTotal Interest: " + interestAmount +
