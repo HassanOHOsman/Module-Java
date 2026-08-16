@@ -7,7 +7,15 @@ public class TimedTask extends Task {
     private final double durationInHours;
 
     public TimedTask(int id, String description, boolean completed, LocalDate deadline, double durationInHours) {
-        super(id, description, completed);
+        super(description, completed);
+
+        if (deadline == null) {
+            throw new IllegalStateException("Deadline should not be null");
+        }
+
+        if (durationInHours <= 0) {
+            throw new IllegalArgumentException("durationInHours can not be zero or negative");
+        }
         this.deadline = deadline;
         this.durationInHours = durationInHours;
     }
