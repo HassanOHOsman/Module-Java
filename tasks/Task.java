@@ -13,9 +13,11 @@ public class Task {
     }
 
     public void complete() {
-        if (!completed) {
-            completed = true;
+        if (completed) {
+            throw new IllegalStateException ("Task is already completed");
+
         }
+        completed = true;
     }
 
     public int getId() {
