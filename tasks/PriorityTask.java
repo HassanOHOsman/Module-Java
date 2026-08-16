@@ -12,12 +12,9 @@ public class PriorityTask extends Task{
 
     @Override
     public String getStatus() {
-        if (!isCompleted()){
-            return "** Summary **\n* Task ID: " + getId() + "\n* Description: " + getDescription() + "\n* Priority: " + priority +
-                    "\n* Require Approval? : " + isApprovalRequired + "\n* Completion Status: Incomplete";
-        }
-        return "** Summary **\n* Task ID: " + getId() + "\n* Description: " + getDescription() + "\n* Priority: " + priority +
-                "\n* Require Approval? : " + isApprovalRequired + "\n* Completion Status: Completed";
+
+        return  super.getStatus() + "\n* Priority: " + priority +
+                "\n* Require Approval? : " + isApprovalRequired;
 
     }
 
