@@ -3,8 +3,8 @@ package tasks;
 import java.time.LocalDate;
 
 public class TimedTask extends Task {
-    private LocalDate deadline;
-    private double durationInHours;
+    private final LocalDate deadline;
+    private final double durationInHours;
 
     public TimedTask(int id, String description, boolean completed, LocalDate deadline, double durationInHours) {
         super(id, description, completed);
