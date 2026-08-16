@@ -9,7 +9,7 @@ import java.util.Arrays;
 
 public class Main {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Task task = new Task(333,"Email customised onboarding guide to new-hires", true);
         System.out.println(task.getStatus());
 
