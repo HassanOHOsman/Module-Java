@@ -6,6 +6,8 @@ public class Task {
     private String description;
     private boolean completed;
 
+    private static int idCounter = 0;
+
     public Task(int id, String description, boolean completed) {
         if (description == null) {
             throw new IllegalArgumentException("Description should not be null");
