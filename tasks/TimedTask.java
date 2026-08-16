@@ -10,7 +10,7 @@ public class TimedTask extends Task {
         super(description, completed);
 
         if (deadline == null) {
-            throw new IllegalStateException("Deadline should not be null");
+            throw new IllegalArgumentException("Deadline should not be null");
         }
 
         if (durationInHours <= 0) {
