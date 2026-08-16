@@ -8,14 +8,15 @@ public class Task {
 
     private static int idCounter = 0;
 
-    public Task(int id, String description, boolean completed) {
+    public Task(String description, boolean completed) {
         if (description == null) {
             throw new IllegalArgumentException("Description should not be null");
         }
 
-        this.id = id;
+        id = idCounter;
         this.description = description;
         this.completed = completed;
+        idCounter ++;
     }
 
     public void complete() {
