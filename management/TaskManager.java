@@ -7,9 +7,9 @@ public class TaskManager {
     private Task[] tasks;
     private int taskCount;
 
-    public TaskManager(Task[] tasks, int taskCount) {
-        this.tasks = tasks;
-        this.taskCount = taskCount;
+    public TaskManager() {
+        this.tasks = new Task[10];
+        this.taskCount = 0;
     }
 
     public void addTask(Task task) {
