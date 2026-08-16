@@ -7,6 +7,10 @@ public class Task {
     private boolean completed;
 
     public Task(int id, String description, boolean completed) {
+        if (description == null) {
+            throw new IllegalArgumentException("Description should not be null");
+        }
+
         this.id = id;
         this.description = description;
         this.completed = completed;
