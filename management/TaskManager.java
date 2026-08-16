@@ -13,8 +13,13 @@ public class TaskManager {
     }
 
     public void addTask(Task task) {
-        tasks[taskCount] = task;
-        taskCount++;
+        if (taskCount == tasks.length) {
+            throw new IllegalStateException("The array is full");
+        } else {
+            tasks[taskCount] = task;
+            taskCount++;
+        }
+
     }
 
     public void completeTask(int id) {
