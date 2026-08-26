@@ -21,6 +21,8 @@ public class RequestProcessor {
 
         log.info("Processing request {}", n);
 
+        calculateProcessingTime(n);
+
         try {
             if (n == 2) throw new IllegalArgumentException("Bad input!");
         } catch (Exception e) {
@@ -28,5 +30,11 @@ public class RequestProcessor {
         } finally {
             MDC.clear();
         }
+    }
+
+    public static void calculateProcessingTime(int n) {
+
+        log.debug("Processing time is approx. {} hours", n * 2.5);
+
     }
 }
