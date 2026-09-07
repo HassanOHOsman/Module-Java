@@ -64,17 +64,18 @@ public class RentalSummary {
         return numberOfRemainingRentals;
     }
 
-
-    @Override
-    public String toString(){
-        return "Customer: " + customerName +
-                "\nAge: " + customerAge +
-                "\nStart Date: " + startDate +
-                "\nEnd Date: " + endDate +
-                "\nRentals: " + rentals +
-                "\nNext Due Rental: " + nextDueRental +
-                "\nTotal Capital: " + String.format("%.2f", capitalAmount) +
-                "\nTotal Interest: " + String.format("%.2f", interestAmount) +
-                "\nRemaining Rentals: " + numberOfRemainingRentals;
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "RentalSummary{" +
+                "customerName='" + customerName + '\'' +
+                ", customerAge='" + customerAge + '\'' +
+                ", startDate=" + startDate +
+                ", endDate=" + endDate +
+                ", rentals=" + rentals +
+                ", nextDueRental=" + nextDueRental +
+                ", capitalAmount=" + capitalAmount +
+                ", interestAmount=" + interestAmount +
+                ", numberOfRemainingRentals=" + numberOfRemainingRentals +
+                '}';
     }
 }
