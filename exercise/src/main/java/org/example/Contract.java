@@ -9,7 +9,7 @@ public class Contract {
     private double carPrice;
 
     enum ContractLengthYears {
-        One_YEAR,
+        ONE_YEAR,
         THREE_YEARS
     }
 
