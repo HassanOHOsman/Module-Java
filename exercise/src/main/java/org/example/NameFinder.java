@@ -8,7 +8,7 @@ public class NameFinder {
     public void printNamesStartingWithA(List<String> listOfNames) {
         List<String> namesStartsWithA = listOfNames.stream()
                 .filter(name -> name.toUpperCase().startsWith("A"))
-                .collect(Collectors.toList());
+                .forEach(System.out::println);
 
         System.out.println(namesStartsWithA);
 
