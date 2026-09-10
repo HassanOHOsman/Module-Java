@@ -17,7 +17,7 @@ public class NameFinder {
 
     public void vowelNamesCapitalisedDescending(List<String> listOfNames) {
         List<String> namesStartsWithVowel = listOfNames.stream()
-                .filter(name -> name.toUpperCase().matches("^[AEIOUaeiou].*"))
+                .filter(name -> name.toUpperCase().matches("^[AEIOU].*"))
                 .collect(Collectors.toList()).reversed();
 
         System.out.println(namesStartsWithVowel);
