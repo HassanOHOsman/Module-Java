@@ -2,10 +2,40 @@ package org.example;
 
 import java.time.LocalDate;
 
+/**
+ * This interface {@code Statement} represents a bank statement, providing details about the customer,
+ * bank, balance, and the date the statement was issued.
+ *
+ */
 public interface Statement {
+    /**
+     * This abstract method {@code getCustomerName()} is expected to return the
+     * name of the customer this statement belongs to.
+     *
+     * @return customer name
+     */
     String getCustomerName();
+
+    /**
+     * This abstract method {@code getBankName()} is expected to return a bank name associated with the statement.
+     *
+     * @return bank name
+     */
     String getBankName();
+
+    /**
+     * This abstract method {@code getBalance()} is expected to return the balance this statement belongs to.
+     *
+     * @return balance
+     */
     double getBalance();
+
+    /**
+     * This abstract method {@code getStatementDate()} is expected to return the date
+     * this statement was issued on.
+     *
+     * @return statement date
+     */
     LocalDate getStatementDate();
 }
 
