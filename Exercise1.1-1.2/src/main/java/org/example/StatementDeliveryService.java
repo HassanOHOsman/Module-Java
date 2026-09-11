@@ -1,5 +1,9 @@
 package org.example;
 
+/**
+ * This class {@code StatementDeliveryService} represents a service for delivering statements to customers
+ * either by emailing them or sending them through the post.
+ */
 public class StatementDeliveryService {
 
     public void deliverStatement(String statementContent, StatementSender statementSender) {
