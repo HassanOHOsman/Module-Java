@@ -2,6 +2,10 @@ package org.example;
 
 import java.time.LocalDate;
 
+/**
+ * This class {@code OutgoingTransactionsMonthlyStatement} represents a monthly bank statement
+ * summarising all outgoing transactions for a customer.
+ */
 public class OutgoingTransactionsMonthlyStatement implements Statement{
 
     private String customerName;
