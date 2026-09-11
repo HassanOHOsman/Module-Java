@@ -4,3 +4,6 @@
 
 # IntelliJ build output
 out/
+
+# Compiled class files
+*.class
