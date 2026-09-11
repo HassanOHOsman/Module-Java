@@ -9,9 +9,9 @@ import java.util.stream.IntStream;
 public class Remainders {
 
     public void printRemainders(int divisor) {
-        List<Integer> remainder = new ArrayList<>();
+        List<Integer> remainders = new ArrayList<>();
         for (int i = 1; i <= 20; i ++) {
-            remainder.add(i % divisor);
+            remainders.add(i % divisor);
         }
         String output = remainders.stream()
                 .map(String::valueOf)
