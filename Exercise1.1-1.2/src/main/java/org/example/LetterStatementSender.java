@@ -1,5 +1,8 @@
 package org.example;
 
+/**
+ * This class {@code LetterStatementSender} sends monthly statements to customers through the post in letter form.
+ */
 public class LetterStatementSender implements StatementSender {
 
     @Override
