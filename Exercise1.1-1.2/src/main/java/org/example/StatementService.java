@@ -2,6 +2,9 @@ package org.example;
 
 import java.time.LocalDate;
 
+/**
+ * This service {@code StatementService} generates and sends either an outgoing statement or an all-transaction statement
+ */
 public class StatementService {
 
 
