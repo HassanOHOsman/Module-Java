@@ -7,14 +7,11 @@ import java.util.stream.Collectors;
 
 public class ShapeCounter {
 
-    public int countShapesWithSides(Map<String, Integer> shapesToSides, int numberOfSides) {
+    public long countShapesWithSides(Map<String, Integer> shapesToSides, int numberOfSides) {
 
-        int numOfShapesWithThatNumOfSides = (int) shapesToSides.values().stream()
+        return shapesToSides.values().stream()
                 .filter(value -> value == numberOfSides)
                 .count();
-
-
-        return numOfShapesWithThatNumOfSides;
 
     }
 }
