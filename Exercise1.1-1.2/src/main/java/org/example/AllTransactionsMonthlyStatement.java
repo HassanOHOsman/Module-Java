@@ -13,6 +13,13 @@ public class AllTransactionsMonthlyStatement implements Statement{
     private double balance;
     private LocalDate statementDate;
 
+    public AllTransactionsMonthlyStatement(String customerName, String bankName, double balance, LocalDate statementDate) {
+        this.customerName = customerName;
+        this.bankName = bankName;
+        this.balance = balance;
+        this.statementDate = statementDate;
+    }
+
     @Override
     public String getCustomerName() {
         return customerName;
@@ -33,11 +40,5 @@ public class AllTransactionsMonthlyStatement implements Statement{
         return statementDate;
     }
 
-    public AllTransactionsMonthlyStatement(String customerName, String bankName, double balance, LocalDate statementDate) {
-        this.customerName = customerName;
-        this.bankName = bankName;
-        this.balance = balance;
-        this.statementDate = statementDate;
-    }
 
 }
