@@ -9,18 +9,16 @@ import java.util.stream.IntStream;
 public class Remainders {
 
     public void printRemainders(int divisor) {
-        String remainders = "";
+        List<Integer> remainder = new ArrayList<>();
         for (int i = 1; i <= 20; i ++) {
-            int remainder = i % divisor;
-            if (i < 20) {
-                remainders += remainder + ",";
-            } else {
-                remainders += remainder;
-            }
+            remainder.add(i % divisor);
         }
-        remainders += "\n";
+        String output = remainders.stream()
+                .map(String::valueOf)
+                .collect(Collectors.joining(","));
 
-        System.out.println(remainders);
+        System.out.println(output);
+
     }
 
 
